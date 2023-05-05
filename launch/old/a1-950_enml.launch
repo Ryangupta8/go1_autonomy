@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- Use standard ROS navigation stack through move_base? If not, specify vector maps for graph_navigation -->
+  <arg name="move_base" default="false"/>
+  <arg name="graph_map_location" default="$(find a1_autonomy)/enml/maps"/>
+  <arg name="graph_map_name" default="AHG2"/>
+  <arg name="odom_topic" default="/odom"/>
+  <arg name="scan_topic" default="/depth2scan"/><!--/depth2scan /scan /cloud2scan -->
+  <arg name="localization_topic" default="/localization"/>
+  <arg name="loc_topic" default="/localization"/>
+  <!-- <arg name="max_speed" default="0.2f"/> -->
+
+  <param name="use_sim_time" value="false"/>
+
+    <!-- ENML -->
+    <node pkg="a1_autonomy" type="enml_a1_950" name="non_markov_localization_a1_950" output="screen" args="--config_dir $(find a1_autonomy)/config --robot_config a1-950_real_mas.lua --maps_dir $(find a1_autonomy)/enml/maps -d1" />
+
+</launch>
+

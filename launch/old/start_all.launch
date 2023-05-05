@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Start Velodyne, and 3D to 2D conversions -->
+  <include file="$(find spot_autonomy)/launch/velodyne.launch" />
+
+  <include file="$(find spot_autonomy)/launch/start_spot_interface.launch" />  
+
+  <node name="joystick" 
+      pkg="spot_autonomy"
+      type="joystick"
+      args="--v 2" 
+      respawn="true"
+      respawn_delay="2" />
+
+  <node name="websocket" 
+      pkg="spot_autonomy"
+      type="websocket"
+      args="scan:=velodyne_2dscan_highbeams" 
+      respawn="true"
+      respawn_delay="2" />
+
+  <node name="enml" 
+      pkg="spot_autonomy"
+      type="enml"
+      args="-c $(find spot_autonomy)/config -r enml.lua -m $(find spot_autonomy)/maps" 
+      respawn="true"
+      respawn_delay="2" />
+
+  <node name="navigation" 
+      pkg="spot_autonomy"
+      type="navigation"
+      args="-maps_dir $(find spot_autonomy)/maps -map UT_Campus_With_Stairs -odom_topic odom -laser_topic /velodyne_2dscan_highbeams --max_speed 1.4" 
+      respawn="true"
+      respawn_delay="2" />
+
+  <node name="robofleet_client" 
+      pkg="spot_autonomy"
+      type="robofleet_client"
+      args=""
+      ns="spot"
+      respawn="true"
+      respawn_delay="2" />
+
+  <node name="status_translator" 
+      pkg="spot_autonomy"
+      type="status_translator"
+      args=""
+      respawn="true"
+      respawn_delay="2" />
+</launch>
+

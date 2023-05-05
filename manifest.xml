@@ -1,0 +1,17 @@
+<package>
+  <description brief="go1_autonomy">UT A1 Autonomy Stack</description>
+  <author>Maintained by Ryan Gupta</author>
+  <license>LGPLv3.0</license>
+  <review status="unreviewed" notes=""/>
+  <url>https://github.com/Ryangupta8/a1_autonomy</url>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="nav_msgs"/>
+  <depend package="sensor_msgs"/>
+  <depend package="tf"/>
+  <depend package="amrl_msgs"/>
+  <depend package="rosbag"/>
+  <depend package="unitree_legged_msgs"/>
+</package>
+
