@@ -23,3 +23,18 @@ Please cite this work using the following bibtex:
   title = { Episodic non-Markov localization },
 }
 ```
+
+
+## Build 
+```
+cd catkin_ws/src
+git clone git@github.com:Ryangupta8/go1_autonomy.git
+source catkin_ws/devel/setup.bash
+catkin build
+cd go1_autonomy/amrl_msgs
+export ROS_PACKAGE_PATH=`pwd`:$ROS_PACKAGE_PATH
+make
+cd .. && export ROS_PACKAGE_PATH=`pwd`:$ROS_PACKAGE_PATH
+make
+```
+
