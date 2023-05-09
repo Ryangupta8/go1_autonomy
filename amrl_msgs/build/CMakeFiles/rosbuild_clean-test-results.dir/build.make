@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs
+CMAKE_SOURCE_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build
+CMAKE_BINARY_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build
 
 # Utility rule file for rosbuild_clean-test-results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/b
 include CMakeFiles/rosbuild_clean-test-results.dir/progress.make
 
 CMakeFiles/rosbuild_clean-test-results:
-	if ! rm -rf /home/knapsack/.ros/test_results/amrl_msgs; then echo "WARNING:\ failed\ to\ remove\ test-results\ directory"; fi
+	if ! rm -rf /home/amrl/.ros/test_results/amrl_msgs; then echo "WARNING:\ failed\ to\ remove\ test-results\ directory"; fi
 
 rosbuild_clean-test-results: CMakeFiles/rosbuild_clean-test-results
 rosbuild_clean-test-results: CMakeFiles/rosbuild_clean-test-results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/rosbuild_clean-test-results.dir/clean:
 .PHONY : CMakeFiles/rosbuild_clean-test-results.dir/clean
 
 CMakeFiles/rosbuild_clean-test-results.dir/depend:
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles/rosbuild_clean-test-results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles/rosbuild_clean-test-results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rosbuild_clean-test-results.dir/depend
 

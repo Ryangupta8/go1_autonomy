@@ -5,8 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/gtest_autogen.dir/AutogenOldSettings.cmake"
   "CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
   "CMakeFiles/gtest_main.dir/gtest_main_autogen/mocs_compilation.cpp.o"
-  "/home/knapsack/workspaces/boh_ws/src/go1_autonomy/lib/libgtest_main.pdb"
-  "/home/knapsack/workspaces/boh_ws/src/go1_autonomy/lib/libgtest_main.so"
+  "/home/amrl/workspaces/boh_ws/src/go1_autonomy/lib/libgtest_main.pdb"
+  "/home/amrl/workspaces/boh_ws/src/go1_autonomy/lib/libgtest_main.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,8 @@
 RobotConfig = {
-    name = "a1-950";
+    name = "go1";
     scan_topic = "/scan";
-    pointcloud_topic = "/velodyne_points";
-    odometry_topic = "/tracker/odom/sample";
+    -- pointcloud_topic = "/velodyne_points";
+    odometry_topic = "/robot/odom";
     initialpose_topic = "/initialpose";
   };
   

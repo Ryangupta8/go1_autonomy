@@ -1,0 +1,5 @@
+tags
+build
+build/*
+bin
+srv_gen

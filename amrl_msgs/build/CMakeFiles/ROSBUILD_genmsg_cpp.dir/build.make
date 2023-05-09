@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs
+CMAKE_SOURCE_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build
+CMAKE_BINARY_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build
 
 # Utility rule file for ROSBUILD_genmsg_cpp.
 
@@ -133,8 +133,8 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/amrl_msgs/VisualizationMs
 ../msg_gen/cpp/include/amrl_msgs/AckermannCurvatureDriveMsg.h: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/cpp/include/amrl_msgs/AckermannCurvatureDriveMsg.h: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/cpp/include/amrl_msgs/AckermannCurvatureDriveMsg.h: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../msg_gen/cpp/include/amrl_msgs/AckermannCurvatureDriveMsg.h"
-	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/AckermannCurvatureDriveMsg.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../msg_gen/cpp/include/amrl_msgs/AckermannCurvatureDriveMsg.h"
+	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/AckermannCurvatureDriveMsg.msg
 
 ../msg_gen/cpp/include/amrl_msgs/ColoredArc2D.h: ../msg/ColoredArc2D.msg
 ../msg_gen/cpp/include/amrl_msgs/ColoredArc2D.h: /opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py
@@ -197,8 +197,8 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/amrl_msgs/VisualizationMs
 ../msg_gen/cpp/include/amrl_msgs/ColoredArc2D.h: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/cpp/include/amrl_msgs/ColoredArc2D.h: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/cpp/include/amrl_msgs/ColoredArc2D.h: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../msg_gen/cpp/include/amrl_msgs/ColoredArc2D.h"
-	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ColoredArc2D.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../msg_gen/cpp/include/amrl_msgs/ColoredArc2D.h"
+	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ColoredArc2D.msg
 
 ../msg_gen/cpp/include/amrl_msgs/ColoredLine2D.h: ../msg/ColoredLine2D.msg
 ../msg_gen/cpp/include/amrl_msgs/ColoredLine2D.h: /opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py
@@ -261,8 +261,8 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/amrl_msgs/VisualizationMs
 ../msg_gen/cpp/include/amrl_msgs/ColoredLine2D.h: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/cpp/include/amrl_msgs/ColoredLine2D.h: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/cpp/include/amrl_msgs/ColoredLine2D.h: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../msg_gen/cpp/include/amrl_msgs/ColoredLine2D.h"
-	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ColoredLine2D.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../msg_gen/cpp/include/amrl_msgs/ColoredLine2D.h"
+	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ColoredLine2D.msg
 
 ../msg_gen/cpp/include/amrl_msgs/ColoredPoint2D.h: ../msg/ColoredPoint2D.msg
 ../msg_gen/cpp/include/amrl_msgs/ColoredPoint2D.h: /opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py
@@ -325,8 +325,8 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/amrl_msgs/VisualizationMs
 ../msg_gen/cpp/include/amrl_msgs/ColoredPoint2D.h: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/cpp/include/amrl_msgs/ColoredPoint2D.h: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/cpp/include/amrl_msgs/ColoredPoint2D.h: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ../msg_gen/cpp/include/amrl_msgs/ColoredPoint2D.h"
-	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ColoredPoint2D.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ../msg_gen/cpp/include/amrl_msgs/ColoredPoint2D.h"
+	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ColoredPoint2D.msg
 
 ../msg_gen/cpp/include/amrl_msgs/ElevatorCommand.h: ../msg/ElevatorCommand.msg
 ../msg_gen/cpp/include/amrl_msgs/ElevatorCommand.h: /opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py
@@ -388,8 +388,8 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/amrl_msgs/VisualizationMs
 ../msg_gen/cpp/include/amrl_msgs/ElevatorCommand.h: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/cpp/include/amrl_msgs/ElevatorCommand.h: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/cpp/include/amrl_msgs/ElevatorCommand.h: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ../msg_gen/cpp/include/amrl_msgs/ElevatorCommand.h"
-	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ElevatorCommand.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ../msg_gen/cpp/include/amrl_msgs/ElevatorCommand.h"
+	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ElevatorCommand.msg
 
 ../msg_gen/cpp/include/amrl_msgs/ElevatorStatus.h: ../msg/ElevatorStatus.msg
 ../msg_gen/cpp/include/amrl_msgs/ElevatorStatus.h: /opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py
@@ -451,8 +451,8 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/amrl_msgs/VisualizationMs
 ../msg_gen/cpp/include/amrl_msgs/ElevatorStatus.h: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/cpp/include/amrl_msgs/ElevatorStatus.h: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/cpp/include/amrl_msgs/ElevatorStatus.h: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ../msg_gen/cpp/include/amrl_msgs/ElevatorStatus.h"
-	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ElevatorStatus.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ../msg_gen/cpp/include/amrl_msgs/ElevatorStatus.h"
+	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ElevatorStatus.msg
 
 ../msg_gen/cpp/include/amrl_msgs/ErrorReport.h: ../msg/ErrorReport.msg
 ../msg_gen/cpp/include/amrl_msgs/ErrorReport.h: /opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py
@@ -515,8 +515,8 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/amrl_msgs/VisualizationMs
 ../msg_gen/cpp/include/amrl_msgs/ErrorReport.h: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/cpp/include/amrl_msgs/ErrorReport.h: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/cpp/include/amrl_msgs/ErrorReport.h: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ../msg_gen/cpp/include/amrl_msgs/ErrorReport.h"
-	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ErrorReport.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ../msg_gen/cpp/include/amrl_msgs/ErrorReport.h"
+	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ErrorReport.msg
 
 ../msg_gen/cpp/include/amrl_msgs/HumanStateArrayMsg.h: ../msg/HumanStateArrayMsg.msg
 ../msg_gen/cpp/include/amrl_msgs/HumanStateArrayMsg.h: /opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py
@@ -582,8 +582,8 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/amrl_msgs/VisualizationMs
 ../msg_gen/cpp/include/amrl_msgs/HumanStateArrayMsg.h: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/cpp/include/amrl_msgs/HumanStateArrayMsg.h: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/cpp/include/amrl_msgs/HumanStateArrayMsg.h: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ../msg_gen/cpp/include/amrl_msgs/HumanStateArrayMsg.h"
-	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/HumanStateArrayMsg.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ../msg_gen/cpp/include/amrl_msgs/HumanStateArrayMsg.h"
+	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/HumanStateArrayMsg.msg
 
 ../msg_gen/cpp/include/amrl_msgs/HumanStateMsg.h: ../msg/HumanStateMsg.msg
 ../msg_gen/cpp/include/amrl_msgs/HumanStateMsg.h: /opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py
@@ -647,8 +647,8 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/amrl_msgs/VisualizationMs
 ../msg_gen/cpp/include/amrl_msgs/HumanStateMsg.h: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/cpp/include/amrl_msgs/HumanStateMsg.h: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/cpp/include/amrl_msgs/HumanStateMsg.h: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ../msg_gen/cpp/include/amrl_msgs/HumanStateMsg.h"
-	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/HumanStateMsg.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ../msg_gen/cpp/include/amrl_msgs/HumanStateMsg.h"
+	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/HumanStateMsg.msg
 
 ../msg_gen/cpp/include/amrl_msgs/Localization2DMsg.h: ../msg/Localization2DMsg.msg
 ../msg_gen/cpp/include/amrl_msgs/Localization2DMsg.h: /opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py
@@ -712,8 +712,8 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/amrl_msgs/VisualizationMs
 ../msg_gen/cpp/include/amrl_msgs/Localization2DMsg.h: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/cpp/include/amrl_msgs/Localization2DMsg.h: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/cpp/include/amrl_msgs/Localization2DMsg.h: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ../msg_gen/cpp/include/amrl_msgs/Localization2DMsg.h"
-	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/Localization2DMsg.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ../msg_gen/cpp/include/amrl_msgs/Localization2DMsg.h"
+	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/Localization2DMsg.msg
 
 ../msg_gen/cpp/include/amrl_msgs/PathVisualization.h: ../msg/PathVisualization.msg
 ../msg_gen/cpp/include/amrl_msgs/PathVisualization.h: /opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py
@@ -775,8 +775,8 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/amrl_msgs/VisualizationMs
 ../msg_gen/cpp/include/amrl_msgs/PathVisualization.h: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/cpp/include/amrl_msgs/PathVisualization.h: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/cpp/include/amrl_msgs/PathVisualization.h: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ../msg_gen/cpp/include/amrl_msgs/PathVisualization.h"
-	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/PathVisualization.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ../msg_gen/cpp/include/amrl_msgs/PathVisualization.h"
+	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/PathVisualization.msg
 
 ../msg_gen/cpp/include/amrl_msgs/PlanarObjDetection.h: ../msg/PlanarObjDetection.msg
 ../msg_gen/cpp/include/amrl_msgs/PlanarObjDetection.h: /opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py
@@ -840,8 +840,8 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/amrl_msgs/VisualizationMs
 ../msg_gen/cpp/include/amrl_msgs/PlanarObjDetection.h: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/cpp/include/amrl_msgs/PlanarObjDetection.h: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/cpp/include/amrl_msgs/PlanarObjDetection.h: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ../msg_gen/cpp/include/amrl_msgs/PlanarObjDetection.h"
-	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/PlanarObjDetection.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ../msg_gen/cpp/include/amrl_msgs/PlanarObjDetection.h"
+	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/PlanarObjDetection.msg
 
 ../msg_gen/cpp/include/amrl_msgs/Point2D.h: ../msg/Point2D.msg
 ../msg_gen/cpp/include/amrl_msgs/Point2D.h: /opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py
@@ -903,8 +903,8 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/amrl_msgs/VisualizationMs
 ../msg_gen/cpp/include/amrl_msgs/Point2D.h: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/cpp/include/amrl_msgs/Point2D.h: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/cpp/include/amrl_msgs/Point2D.h: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ../msg_gen/cpp/include/amrl_msgs/Point2D.h"
-	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/Point2D.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ../msg_gen/cpp/include/amrl_msgs/Point2D.h"
+	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/Point2D.msg
 
 ../msg_gen/cpp/include/amrl_msgs/Pose2Df.h: ../msg/Pose2Df.msg
 ../msg_gen/cpp/include/amrl_msgs/Pose2Df.h: /opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py
@@ -966,8 +966,8 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/amrl_msgs/VisualizationMs
 ../msg_gen/cpp/include/amrl_msgs/Pose2Df.h: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/cpp/include/amrl_msgs/Pose2Df.h: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/cpp/include/amrl_msgs/Pose2Df.h: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating ../msg_gen/cpp/include/amrl_msgs/Pose2Df.h"
-	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/Pose2Df.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating ../msg_gen/cpp/include/amrl_msgs/Pose2Df.h"
+	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/Pose2Df.msg
 
 ../msg_gen/cpp/include/amrl_msgs/RobofleetStatus.h: ../msg/RobofleetStatus.msg
 ../msg_gen/cpp/include/amrl_msgs/RobofleetStatus.h: /opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py
@@ -1029,8 +1029,8 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/amrl_msgs/VisualizationMs
 ../msg_gen/cpp/include/amrl_msgs/RobofleetStatus.h: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/cpp/include/amrl_msgs/RobofleetStatus.h: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/cpp/include/amrl_msgs/RobofleetStatus.h: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating ../msg_gen/cpp/include/amrl_msgs/RobofleetStatus.h"
-	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/RobofleetStatus.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating ../msg_gen/cpp/include/amrl_msgs/RobofleetStatus.h"
+	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/RobofleetStatus.msg
 
 ../msg_gen/cpp/include/amrl_msgs/RobofleetSubscription.h: ../msg/RobofleetSubscription.msg
 ../msg_gen/cpp/include/amrl_msgs/RobofleetSubscription.h: /opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py
@@ -1092,8 +1092,8 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/amrl_msgs/VisualizationMs
 ../msg_gen/cpp/include/amrl_msgs/RobofleetSubscription.h: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/cpp/include/amrl_msgs/RobofleetSubscription.h: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/cpp/include/amrl_msgs/RobofleetSubscription.h: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating ../msg_gen/cpp/include/amrl_msgs/RobofleetSubscription.h"
-	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/RobofleetSubscription.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating ../msg_gen/cpp/include/amrl_msgs/RobofleetSubscription.h"
+	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/RobofleetSubscription.msg
 
 ../msg_gen/cpp/include/amrl_msgs/VisualizationMsg.h: ../msg/VisualizationMsg.msg
 ../msg_gen/cpp/include/amrl_msgs/VisualizationMsg.h: /opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py
@@ -1162,8 +1162,8 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/amrl_msgs/VisualizationMs
 ../msg_gen/cpp/include/amrl_msgs/VisualizationMsg.h: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/cpp/include/amrl_msgs/VisualizationMsg.h: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/cpp/include/amrl_msgs/VisualizationMsg.h: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating ../msg_gen/cpp/include/amrl_msgs/VisualizationMsg.h"
-	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/VisualizationMsg.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating ../msg_gen/cpp/include/amrl_msgs/VisualizationMsg.h"
+	/opt/ros/melodic/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/VisualizationMsg.msg
 
 ROSBUILD_genmsg_cpp: CMakeFiles/ROSBUILD_genmsg_cpp
 ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/amrl_msgs/AckermannCurvatureDriveMsg.h
@@ -1197,6 +1197,6 @@ CMakeFiles/ROSBUILD_genmsg_cpp.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_genmsg_cpp.dir/clean
 
 CMakeFiles/ROSBUILD_genmsg_cpp.dir/depend:
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_genmsg_cpp.dir/depend
 

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/vector_map/vector_map.cc" "/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/shared_library.dir/graph_navigation/src/vector_map/vector_map.cc.o"
-  "/home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/visualization/visualization.cc" "/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/shared_library.dir/graph_navigation/src/visualization/visualization.cc.o"
-  "/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/shared_library_autogen/mocs_compilation.cpp" "/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/shared_library.dir/shared_library_autogen/mocs_compilation.cpp.o"
+  "/home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/vector_map/vector_map.cc" "/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/shared_library.dir/graph_navigation/src/vector_map/vector_map.cc.o"
+  "/home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/visualization/visualization.cc" "/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/shared_library.dir/graph_navigation/src/visualization/visualization.cc.o"
+  "/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/shared_library_autogen/mocs_compilation.cpp" "/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/shared_library.dir/shared_library_autogen/mocs_compilation.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,7 +25,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
   "../amrl_msgs/msg_gen/cpp/include"
   "../amrl_msgs/srv_gen/cpp/include"
-  "/home/knapsack/workspaces/boh_ws/devel/.private/unitree_legged_msgs/include"
+  "/home/amrl/workspaces/boh_ws/devel/.private/unitree_legged_msgs/include"
   "/opt/ros/melodic/include"
   "../amrl_shared_lib"
   "../config-reader/include"

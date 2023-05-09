@@ -75,15 +75,15 @@ MESSAGE(STATUS "Includes: ${INCLUDE_DIRECTORIES}")
 
 
 # ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/enml/src/shared)
- ROSBUILD_ADD_EXECUTABLE(enml_a1_950
-     enml/src/non_markov_localization_main_950.cpp
+ ROSBUILD_ADD_EXECUTABLE(enml_go1
+     enml/src/non_markov_localization_main_go1.cpp
      enml/src/non_markov_localization.cpp
      enml/src/kdtree.cpp
      enml/src/perception_2d.cpp
      enml/src/vector_map/vector_map.cc
      enml/src/visualization/visualization.cc
      enml/src/visualization/gui_helpers.cc)
- TARGET_INCLUDE_DIRECTORIES(enml_a1_950 PRIVATE
+ TARGET_INCLUDE_DIRECTORIES(enml_go1 PRIVATE
      amrl_shared_lib
      config-reader/include
      enml/src
@@ -91,8 +91,8 @@ MESSAGE(STATUS "Includes: ${INCLUDE_DIRECTORIES}")
      enml/src/config-reader/include
      ${LUA_INCLUDE_DIR}
      ${CERES_INCLUDE_DIRS})
- ADD_DEPENDENCIES(enml_a1_950 rosbuild_precompile)
- TARGET_LINK_LIBRARIES(enml_a1_950 ceres roslib roscpp ncurses pthread boost_system
+ ADD_DEPENDENCIES(enml_go1 rosbuild_precompile)
+ TARGET_LINK_LIBRARIES(enml_go1 ceres roslib roscpp ncurses pthread boost_system
      ${LUA_LIBRARIES} rt popt glog rosbag amrl_shared_lib
      ${BUILD_SPECIFIC_LIBRARIES})
 
@@ -164,8 +164,8 @@ TARGET_LINK_LIBRARIES(pointcloud_to_laserscan
     ${BUILD_SPECIFIC_LIBRARIES})
 
 
-ROSBUILD_ADD_EXECUTABLE(navigation_a1_950
-                        graph_navigation/src/navigation/navigation_main_950.cc
+ROSBUILD_ADD_EXECUTABLE(navigation_go1
+                        graph_navigation/src/navigation/navigation_main_go1.cc
                         graph_navigation/src/navigation/navigation.cc
                         graph_navigation/src/navigation/motion_primitives.cc
                         graph_navigation/src/navigation/ackermann_motion_primitives.cc
@@ -175,7 +175,7 @@ ROSBUILD_ADD_EXECUTABLE(navigation_a1_950
                         graph_navigation/src/navigation/deep_cost_map_evaluator.cc
                         graph_navigation/src/navigation/image_based_evaluator.cc
 )
-TARGET_LINK_LIBRARIES(navigation_a1_950
+TARGET_LINK_LIBRARIES(navigation_go1
     shared_library 
     ${libs} 
     ${TORCH_LIBRARIES} 
@@ -184,7 +184,7 @@ TARGET_LINK_LIBRARIES(navigation_a1_950
     cv_bridge
 )
 
-ADD_DEPENDENCIES(navigation_a1_950 ${catkin_EXPORTED_TARGETS})
+ADD_DEPENDENCIES(navigation_go1 ${catkin_EXPORTED_TARGETS})
 
 
 

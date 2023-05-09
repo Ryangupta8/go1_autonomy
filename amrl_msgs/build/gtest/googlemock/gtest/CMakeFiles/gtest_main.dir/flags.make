@@ -6,5 +6,5 @@ CXX_FLAGS = -O2 -g -DNDEBUG -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexce
 
 CXX_DEFINES = -DGTEST_CREATE_SHARED_LIBRARY=1 -DROS_PACKAGE_NAME=\"amrl_msgs\" -Dgtest_main_EXPORTS
 
-CXX_INCLUDES = -I/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/include -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest 
+CXX_INCLUDES = -I/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/include -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest 
 

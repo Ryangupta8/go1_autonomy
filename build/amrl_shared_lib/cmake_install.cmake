@@ -1,4 +1,4 @@
-# Install script for directory: /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib
+# Install script for directory: /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

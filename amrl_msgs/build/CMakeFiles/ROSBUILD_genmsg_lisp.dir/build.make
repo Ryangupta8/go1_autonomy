@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs
+CMAKE_SOURCE_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build
+CMAKE_BINARY_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build
 
 # Utility rule file for ROSBUILD_genmsg_lisp.
 
@@ -167,8 +167,8 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_VisualizationMsg.lisp
 ../msg_gen/lisp/AckermannCurvatureDriveMsg.lisp: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/lisp/AckermannCurvatureDriveMsg.lisp: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/lisp/AckermannCurvatureDriveMsg.lisp: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../msg_gen/lisp/AckermannCurvatureDriveMsg.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_AckermannCurvatureDriveMsg.lisp"
-	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/AckermannCurvatureDriveMsg.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../msg_gen/lisp/AckermannCurvatureDriveMsg.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_AckermannCurvatureDriveMsg.lisp"
+	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/AckermannCurvatureDriveMsg.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/AckermannCurvatureDriveMsg.lisp
 	@$(CMAKE_COMMAND) -E touch_nocreate ../msg_gen/lisp/_package.lisp
@@ -237,8 +237,8 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_VisualizationMsg.lisp
 ../msg_gen/lisp/ColoredArc2D.lisp: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/lisp/ColoredArc2D.lisp: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/lisp/ColoredArc2D.lisp: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../msg_gen/lisp/ColoredArc2D.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_ColoredArc2D.lisp"
-	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ColoredArc2D.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../msg_gen/lisp/ColoredArc2D.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_ColoredArc2D.lisp"
+	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ColoredArc2D.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/ColoredArc2D.lisp
 	@$(CMAKE_COMMAND) -E touch_nocreate ../msg_gen/lisp/_package.lisp
@@ -307,8 +307,8 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_VisualizationMsg.lisp
 ../msg_gen/lisp/ColoredLine2D.lisp: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/lisp/ColoredLine2D.lisp: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/lisp/ColoredLine2D.lisp: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../msg_gen/lisp/ColoredLine2D.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_ColoredLine2D.lisp"
-	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ColoredLine2D.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../msg_gen/lisp/ColoredLine2D.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_ColoredLine2D.lisp"
+	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ColoredLine2D.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/ColoredLine2D.lisp
 	@$(CMAKE_COMMAND) -E touch_nocreate ../msg_gen/lisp/_package.lisp
@@ -377,8 +377,8 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_VisualizationMsg.lisp
 ../msg_gen/lisp/ColoredPoint2D.lisp: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/lisp/ColoredPoint2D.lisp: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/lisp/ColoredPoint2D.lisp: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ../msg_gen/lisp/ColoredPoint2D.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_ColoredPoint2D.lisp"
-	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ColoredPoint2D.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ../msg_gen/lisp/ColoredPoint2D.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_ColoredPoint2D.lisp"
+	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ColoredPoint2D.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/ColoredPoint2D.lisp
 	@$(CMAKE_COMMAND) -E touch_nocreate ../msg_gen/lisp/_package.lisp
@@ -446,8 +446,8 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_VisualizationMsg.lisp
 ../msg_gen/lisp/ElevatorCommand.lisp: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/lisp/ElevatorCommand.lisp: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/lisp/ElevatorCommand.lisp: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ../msg_gen/lisp/ElevatorCommand.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_ElevatorCommand.lisp"
-	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ElevatorCommand.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ../msg_gen/lisp/ElevatorCommand.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_ElevatorCommand.lisp"
+	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ElevatorCommand.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/ElevatorCommand.lisp
 	@$(CMAKE_COMMAND) -E touch_nocreate ../msg_gen/lisp/_package.lisp
@@ -515,8 +515,8 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_VisualizationMsg.lisp
 ../msg_gen/lisp/ElevatorStatus.lisp: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/lisp/ElevatorStatus.lisp: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/lisp/ElevatorStatus.lisp: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ../msg_gen/lisp/ElevatorStatus.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_ElevatorStatus.lisp"
-	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ElevatorStatus.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ../msg_gen/lisp/ElevatorStatus.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_ElevatorStatus.lisp"
+	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ElevatorStatus.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/ElevatorStatus.lisp
 	@$(CMAKE_COMMAND) -E touch_nocreate ../msg_gen/lisp/_package.lisp
@@ -585,8 +585,8 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_VisualizationMsg.lisp
 ../msg_gen/lisp/ErrorReport.lisp: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/lisp/ErrorReport.lisp: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/lisp/ErrorReport.lisp: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ../msg_gen/lisp/ErrorReport.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_ErrorReport.lisp"
-	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ErrorReport.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ../msg_gen/lisp/ErrorReport.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_ErrorReport.lisp"
+	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ErrorReport.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/ErrorReport.lisp
 	@$(CMAKE_COMMAND) -E touch_nocreate ../msg_gen/lisp/_package.lisp
@@ -658,8 +658,8 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_VisualizationMsg.lisp
 ../msg_gen/lisp/HumanStateArrayMsg.lisp: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/lisp/HumanStateArrayMsg.lisp: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/lisp/HumanStateArrayMsg.lisp: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ../msg_gen/lisp/HumanStateArrayMsg.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_HumanStateArrayMsg.lisp"
-	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/HumanStateArrayMsg.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ../msg_gen/lisp/HumanStateArrayMsg.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_HumanStateArrayMsg.lisp"
+	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/HumanStateArrayMsg.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/HumanStateArrayMsg.lisp
 	@$(CMAKE_COMMAND) -E touch_nocreate ../msg_gen/lisp/_package.lisp
@@ -729,8 +729,8 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_VisualizationMsg.lisp
 ../msg_gen/lisp/HumanStateMsg.lisp: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/lisp/HumanStateMsg.lisp: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/lisp/HumanStateMsg.lisp: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ../msg_gen/lisp/HumanStateMsg.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_HumanStateMsg.lisp"
-	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/HumanStateMsg.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ../msg_gen/lisp/HumanStateMsg.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_HumanStateMsg.lisp"
+	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/HumanStateMsg.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/HumanStateMsg.lisp
 	@$(CMAKE_COMMAND) -E touch_nocreate ../msg_gen/lisp/_package.lisp
@@ -800,8 +800,8 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_VisualizationMsg.lisp
 ../msg_gen/lisp/Localization2DMsg.lisp: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/lisp/Localization2DMsg.lisp: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/lisp/Localization2DMsg.lisp: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ../msg_gen/lisp/Localization2DMsg.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_Localization2DMsg.lisp"
-	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/Localization2DMsg.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ../msg_gen/lisp/Localization2DMsg.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_Localization2DMsg.lisp"
+	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/Localization2DMsg.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/Localization2DMsg.lisp
 	@$(CMAKE_COMMAND) -E touch_nocreate ../msg_gen/lisp/_package.lisp
@@ -869,8 +869,8 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_VisualizationMsg.lisp
 ../msg_gen/lisp/PathVisualization.lisp: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/lisp/PathVisualization.lisp: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/lisp/PathVisualization.lisp: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ../msg_gen/lisp/PathVisualization.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_PathVisualization.lisp"
-	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/PathVisualization.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ../msg_gen/lisp/PathVisualization.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_PathVisualization.lisp"
+	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/PathVisualization.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/PathVisualization.lisp
 	@$(CMAKE_COMMAND) -E touch_nocreate ../msg_gen/lisp/_package.lisp
@@ -940,8 +940,8 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_VisualizationMsg.lisp
 ../msg_gen/lisp/PlanarObjDetection.lisp: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/lisp/PlanarObjDetection.lisp: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/lisp/PlanarObjDetection.lisp: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ../msg_gen/lisp/PlanarObjDetection.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_PlanarObjDetection.lisp"
-	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/PlanarObjDetection.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ../msg_gen/lisp/PlanarObjDetection.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_PlanarObjDetection.lisp"
+	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/PlanarObjDetection.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/PlanarObjDetection.lisp
 	@$(CMAKE_COMMAND) -E touch_nocreate ../msg_gen/lisp/_package.lisp
@@ -1009,8 +1009,8 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_VisualizationMsg.lisp
 ../msg_gen/lisp/Point2D.lisp: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/lisp/Point2D.lisp: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/lisp/Point2D.lisp: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ../msg_gen/lisp/Point2D.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_Point2D.lisp"
-	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/Point2D.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ../msg_gen/lisp/Point2D.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_Point2D.lisp"
+	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/Point2D.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/Point2D.lisp
 	@$(CMAKE_COMMAND) -E touch_nocreate ../msg_gen/lisp/_package.lisp
@@ -1078,8 +1078,8 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_VisualizationMsg.lisp
 ../msg_gen/lisp/Pose2Df.lisp: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/lisp/Pose2Df.lisp: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/lisp/Pose2Df.lisp: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating ../msg_gen/lisp/Pose2Df.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_Pose2Df.lisp"
-	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/Pose2Df.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating ../msg_gen/lisp/Pose2Df.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_Pose2Df.lisp"
+	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/Pose2Df.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/Pose2Df.lisp
 	@$(CMAKE_COMMAND) -E touch_nocreate ../msg_gen/lisp/_package.lisp
@@ -1147,8 +1147,8 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_VisualizationMsg.lisp
 ../msg_gen/lisp/RobofleetStatus.lisp: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/lisp/RobofleetStatus.lisp: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/lisp/RobofleetStatus.lisp: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating ../msg_gen/lisp/RobofleetStatus.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_RobofleetStatus.lisp"
-	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/RobofleetStatus.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating ../msg_gen/lisp/RobofleetStatus.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_RobofleetStatus.lisp"
+	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/RobofleetStatus.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/RobofleetStatus.lisp
 	@$(CMAKE_COMMAND) -E touch_nocreate ../msg_gen/lisp/_package.lisp
@@ -1216,8 +1216,8 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_VisualizationMsg.lisp
 ../msg_gen/lisp/RobofleetSubscription.lisp: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/lisp/RobofleetSubscription.lisp: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/lisp/RobofleetSubscription.lisp: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating ../msg_gen/lisp/RobofleetSubscription.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_RobofleetSubscription.lisp"
-	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/RobofleetSubscription.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating ../msg_gen/lisp/RobofleetSubscription.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_RobofleetSubscription.lisp"
+	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/RobofleetSubscription.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/RobofleetSubscription.lisp
 	@$(CMAKE_COMMAND) -E touch_nocreate ../msg_gen/lisp/_package.lisp
@@ -1292,8 +1292,8 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_VisualizationMsg.lisp
 ../msg_gen/lisp/VisualizationMsg.lisp: /opt/ros/melodic/share/tf2_ros/package.xml
 ../msg_gen/lisp/VisualizationMsg.lisp: /opt/ros/melodic/share/tf/package.xml
 ../msg_gen/lisp/VisualizationMsg.lisp: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating ../msg_gen/lisp/VisualizationMsg.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_VisualizationMsg.lisp"
-	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/VisualizationMsg.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating ../msg_gen/lisp/VisualizationMsg.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_VisualizationMsg.lisp"
+	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/VisualizationMsg.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/VisualizationMsg.lisp
 	@$(CMAKE_COMMAND) -E touch_nocreate ../msg_gen/lisp/_package.lisp
@@ -1367,6 +1367,6 @@ CMakeFiles/ROSBUILD_genmsg_lisp.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_genmsg_lisp.dir/clean
 
 CMakeFiles/ROSBUILD_genmsg_lisp.dir/depend:
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles/ROSBUILD_genmsg_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles/ROSBUILD_genmsg_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_genmsg_lisp.dir/depend
 

@@ -127,8 +127,7 @@ float32 theta"""
     unpack serialized message in str into this message instance
     :param str: byte array of serialized message, ``str``
     """
-    if python3:
-      codecs.lookup_error("rosmsg").msg_type = self._type
+    codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       if self.robot_poses is None:
         self.robot_poses = None
@@ -236,8 +235,7 @@ float32 theta"""
     :param str: byte array of serialized message, ``str``
     :param numpy: numpy python module
     """
-    if python3:
-      codecs.lookup_error("rosmsg").msg_type = self._type
+    codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       if self.robot_poses is None:
         self.robot_poses = None
@@ -385,8 +383,7 @@ class SocialPipsSrvResponse(genpy.Message):
     unpack serialized message in str into this message instance
     :param str: byte array of serialized message, ``str``
     """
-    if python3:
-      codecs.lookup_error("rosmsg").msg_type = self._type
+    codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       end = 0
       start = end
@@ -415,8 +412,7 @@ class SocialPipsSrvResponse(genpy.Message):
     :param str: byte array of serialized message, ``str``
     :param numpy: numpy python module
     """
-    if python3:
-      codecs.lookup_error("rosmsg").msg_type = self._type
+    codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       end = 0
       start = end

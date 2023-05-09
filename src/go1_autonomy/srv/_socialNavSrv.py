@@ -284,8 +284,7 @@ float32[] intensities    # intensity data [device-specific units].  If your
     unpack serialized message in str into this message instance
     :param str: byte array of serialized message, ``str``
     """
-    if python3:
-      codecs.lookup_error("rosmsg").msg_type = self._type
+    codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       if self.goal_pose is None:
         self.goal_pose = amrl_msgs.msg.Pose2Df()
@@ -465,8 +464,7 @@ float32[] intensities    # intensity data [device-specific units].  If your
     :param str: byte array of serialized message, ``str``
     :param numpy: numpy python module
     """
-    if python3:
-      codecs.lookup_error("rosmsg").msg_type = self._type
+    codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       if self.goal_pose is None:
         self.goal_pose = amrl_msgs.msg.Pose2Df()
@@ -723,8 +721,7 @@ float64 theta
     unpack serialized message in str into this message instance
     :param str: byte array of serialized message, ``str``
     """
-    if python3:
-      codecs.lookup_error("rosmsg").msg_type = self._type
+    codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       if self.local_target is None:
         self.local_target = geometry_msgs.msg.Pose2D()
@@ -756,8 +753,7 @@ float64 theta
     :param str: byte array of serialized message, ``str``
     :param numpy: numpy python module
     """
-    if python3:
-      codecs.lookup_error("rosmsg").msg_type = self._type
+    codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       if self.local_target is None:
         self.local_target = geometry_msgs.msg.Pose2D()

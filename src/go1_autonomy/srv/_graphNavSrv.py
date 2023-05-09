@@ -70,8 +70,7 @@ float32 theta"""
     unpack serialized message in str into this message instance
     :param str: byte array of serialized message, ``str``
     """
-    if python3:
-      codecs.lookup_error("rosmsg").msg_type = self._type
+    codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       if self.start is None:
         self.start = amrl_msgs.msg.Pose2Df()
@@ -105,8 +104,7 @@ float32 theta"""
     :param str: byte array of serialized message, ``str``
     :param numpy: numpy python module
     """
-    if python3:
-      codecs.lookup_error("rosmsg").msg_type = self._type
+    codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       if self.start is None:
         self.start = amrl_msgs.msg.Pose2Df()
@@ -196,8 +194,7 @@ class graphNavSrvResponse(genpy.Message):
     unpack serialized message in str into this message instance
     :param str: byte array of serialized message, ``str``
     """
-    if python3:
-      codecs.lookup_error("rosmsg").msg_type = self._type
+    codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       end = 0
       start = end
@@ -233,8 +230,7 @@ class graphNavSrvResponse(genpy.Message):
     :param str: byte array of serialized message, ``str``
     :param numpy: numpy python module
     """
-    if python3:
-      codecs.lookup_error("rosmsg").msg_type = self._type
+    codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       end = 0
       start = end

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/knapsack/workspaces/boh_ws/src/go1_autonomy
+CMAKE_SOURCE_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build
+CMAKE_BINARY_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy/build
 
 # Include any dependencies generated for this target.
 include amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/depend.make
@@ -59,16 +59,16 @@ include amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/flags.make
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/helpers.cc.o: amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/flags.make
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/helpers.cc.o: ../amrl_shared_lib/util/helpers.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/helpers.cc.o"
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/amrl_shared_lib.dir/util/helpers.cc.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/helpers.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/helpers.cc.o"
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/amrl_shared_lib.dir/util/helpers.cc.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/helpers.cc
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/helpers.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/amrl_shared_lib.dir/util/helpers.cc.i"
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/helpers.cc > CMakeFiles/amrl_shared_lib.dir/util/helpers.cc.i
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/helpers.cc > CMakeFiles/amrl_shared_lib.dir/util/helpers.cc.i
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/helpers.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/amrl_shared_lib.dir/util/helpers.cc.s"
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/helpers.cc -o CMakeFiles/amrl_shared_lib.dir/util/helpers.cc.s
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/helpers.cc -o CMakeFiles/amrl_shared_lib.dir/util/helpers.cc.s
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/helpers.cc.o.requires:
 
@@ -83,16 +83,16 @@ amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/helpers.cc.o.provides.build:
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/pthread_utils.cc.o: amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/flags.make
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/pthread_utils.cc.o: ../amrl_shared_lib/util/pthread_utils.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/pthread_utils.cc.o"
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/amrl_shared_lib.dir/util/pthread_utils.cc.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/pthread_utils.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/pthread_utils.cc.o"
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/amrl_shared_lib.dir/util/pthread_utils.cc.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/pthread_utils.cc
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/pthread_utils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/amrl_shared_lib.dir/util/pthread_utils.cc.i"
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/pthread_utils.cc > CMakeFiles/amrl_shared_lib.dir/util/pthread_utils.cc.i
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/pthread_utils.cc > CMakeFiles/amrl_shared_lib.dir/util/pthread_utils.cc.i
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/pthread_utils.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/amrl_shared_lib.dir/util/pthread_utils.cc.s"
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/pthread_utils.cc -o CMakeFiles/amrl_shared_lib.dir/util/pthread_utils.cc.s
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/pthread_utils.cc -o CMakeFiles/amrl_shared_lib.dir/util/pthread_utils.cc.s
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/pthread_utils.cc.o.requires:
 
@@ -107,16 +107,16 @@ amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/pthread_utils.cc.o.provides.
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/timer.cc.o: amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/flags.make
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/timer.cc.o: ../amrl_shared_lib/util/timer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/timer.cc.o"
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/amrl_shared_lib.dir/util/timer.cc.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/timer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/timer.cc.o"
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/amrl_shared_lib.dir/util/timer.cc.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/timer.cc
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/timer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/amrl_shared_lib.dir/util/timer.cc.i"
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/timer.cc > CMakeFiles/amrl_shared_lib.dir/util/timer.cc.i
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/timer.cc > CMakeFiles/amrl_shared_lib.dir/util/timer.cc.i
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/timer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/amrl_shared_lib.dir/util/timer.cc.s"
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/timer.cc -o CMakeFiles/amrl_shared_lib.dir/util/timer.cc.s
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/timer.cc -o CMakeFiles/amrl_shared_lib.dir/util/timer.cc.s
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/timer.cc.o.requires:
 
@@ -131,16 +131,16 @@ amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/timer.cc.o.provides.build: a
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/random.cc.o: amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/flags.make
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/random.cc.o: ../amrl_shared_lib/util/random.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/random.cc.o"
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/amrl_shared_lib.dir/util/random.cc.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/random.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/random.cc.o"
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/amrl_shared_lib.dir/util/random.cc.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/random.cc
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/random.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/amrl_shared_lib.dir/util/random.cc.i"
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/random.cc > CMakeFiles/amrl_shared_lib.dir/util/random.cc.i
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/random.cc > CMakeFiles/amrl_shared_lib.dir/util/random.cc.i
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/random.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/amrl_shared_lib.dir/util/random.cc.s"
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/random.cc -o CMakeFiles/amrl_shared_lib.dir/util/random.cc.s
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/random.cc -o CMakeFiles/amrl_shared_lib.dir/util/random.cc.s
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/random.cc.o.requires:
 
@@ -155,16 +155,16 @@ amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/random.cc.o.provides.build: 
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/serialization.cc.o: amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/flags.make
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/serialization.cc.o: ../amrl_shared_lib/util/serialization.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/serialization.cc.o"
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/amrl_shared_lib.dir/util/serialization.cc.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/serialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/serialization.cc.o"
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/amrl_shared_lib.dir/util/serialization.cc.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/serialization.cc
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/serialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/amrl_shared_lib.dir/util/serialization.cc.i"
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/serialization.cc > CMakeFiles/amrl_shared_lib.dir/util/serialization.cc.i
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/serialization.cc > CMakeFiles/amrl_shared_lib.dir/util/serialization.cc.i
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/serialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/amrl_shared_lib.dir/util/serialization.cc.s"
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/serialization.cc -o CMakeFiles/amrl_shared_lib.dir/util/serialization.cc.s
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/serialization.cc -o CMakeFiles/amrl_shared_lib.dir/util/serialization.cc.s
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/serialization.cc.o.requires:
 
@@ -179,16 +179,16 @@ amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/serialization.cc.o.provides.
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/terminal_colors.cc.o: amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/flags.make
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/terminal_colors.cc.o: ../amrl_shared_lib/util/terminal_colors.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/terminal_colors.cc.o"
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/amrl_shared_lib.dir/util/terminal_colors.cc.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/terminal_colors.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/terminal_colors.cc.o"
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/amrl_shared_lib.dir/util/terminal_colors.cc.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/terminal_colors.cc
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/terminal_colors.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/amrl_shared_lib.dir/util/terminal_colors.cc.i"
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/terminal_colors.cc > CMakeFiles/amrl_shared_lib.dir/util/terminal_colors.cc.i
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/terminal_colors.cc > CMakeFiles/amrl_shared_lib.dir/util/terminal_colors.cc.i
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/terminal_colors.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/amrl_shared_lib.dir/util/terminal_colors.cc.s"
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/terminal_colors.cc -o CMakeFiles/amrl_shared_lib.dir/util/terminal_colors.cc.s
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/terminal_colors.cc -o CMakeFiles/amrl_shared_lib.dir/util/terminal_colors.cc.s
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/terminal_colors.cc.o.requires:
 
@@ -203,16 +203,16 @@ amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/terminal_colors.cc.o.provide
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/amrl_shared_lib_autogen/mocs_compilation.cpp.o: amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/flags.make
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/amrl_shared_lib_autogen/mocs_compilation.cpp.o: amrl_shared_lib/amrl_shared_lib_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/amrl_shared_lib_autogen/mocs_compilation.cpp.o"
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/amrl_shared_lib.dir/amrl_shared_lib_autogen/mocs_compilation.cpp.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib/amrl_shared_lib_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/amrl_shared_lib_autogen/mocs_compilation.cpp.o"
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/amrl_shared_lib.dir/amrl_shared_lib_autogen/mocs_compilation.cpp.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib/amrl_shared_lib_autogen/mocs_compilation.cpp
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/amrl_shared_lib_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/amrl_shared_lib.dir/amrl_shared_lib_autogen/mocs_compilation.cpp.i"
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib/amrl_shared_lib_autogen/mocs_compilation.cpp > CMakeFiles/amrl_shared_lib.dir/amrl_shared_lib_autogen/mocs_compilation.cpp.i
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib/amrl_shared_lib_autogen/mocs_compilation.cpp > CMakeFiles/amrl_shared_lib.dir/amrl_shared_lib_autogen/mocs_compilation.cpp.i
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/amrl_shared_lib_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/amrl_shared_lib.dir/amrl_shared_lib_autogen/mocs_compilation.cpp.s"
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib/amrl_shared_lib_autogen/mocs_compilation.cpp -o CMakeFiles/amrl_shared_lib.dir/amrl_shared_lib_autogen/mocs_compilation.cpp.s
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib/amrl_shared_lib_autogen/mocs_compilation.cpp -o CMakeFiles/amrl_shared_lib.dir/amrl_shared_lib_autogen/mocs_compilation.cpp.s
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/amrl_shared_lib_autogen/mocs_compilation.cpp.o.requires:
 
@@ -247,8 +247,8 @@ amrl_shared_lib_EXTERNAL_OBJECTS =
 ../lib/libamrl_shared_lib.so: amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/amrl_shared_lib_autogen/mocs_compilation.cpp.o
 ../lib/libamrl_shared_lib.so: amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/build.make
 ../lib/libamrl_shared_lib.so: amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library ../../lib/libamrl_shared_lib.so"
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/amrl_shared_lib.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library ../../lib/libamrl_shared_lib.so"
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/amrl_shared_lib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/build: ../lib/libamrl_shared_lib.so
@@ -266,10 +266,10 @@ amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/requires: amrl_shared_lib/CMakeFi
 .PHONY : amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/requires
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/clean:
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && $(CMAKE_COMMAND) -P CMakeFiles/amrl_shared_lib.dir/cmake_clean.cmake
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib && $(CMAKE_COMMAND) -P CMakeFiles/amrl_shared_lib.dir/cmake_clean.cmake
 .PHONY : amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/clean
 
 amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/depend:
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/knapsack/workspaces/boh_ws/src/go1_autonomy /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amrl/workspaces/boh_ws/src/go1_autonomy /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib /home/amrl/workspaces/boh_ws/src/go1_autonomy/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/depend
 

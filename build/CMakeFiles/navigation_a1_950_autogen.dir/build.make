@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/knapsack/workspaces/boh_ws/src/go1_autonomy
+CMAKE_SOURCE_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build
+CMAKE_BINARY_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy/build
 
 # Utility rule file for navigation_a1_950_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build
 include CMakeFiles/navigation_a1_950_autogen.dir/progress.make
 
 CMakeFiles/navigation_a1_950_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC, UIC and RCC for target navigation_a1_950"
-	/usr/bin/cmake -E cmake_autogen /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/navigation_a1_950_autogen.dir RelWithDebInfo
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC, UIC and RCC for target navigation_a1_950"
+	/usr/bin/cmake -E cmake_autogen /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/navigation_a1_950_autogen.dir RelWithDebInfo
 
 navigation_a1_950_autogen: CMakeFiles/navigation_a1_950_autogen
 navigation_a1_950_autogen: CMakeFiles/navigation_a1_950_autogen.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/navigation_a1_950_autogen.dir/clean:
 .PHONY : CMakeFiles/navigation_a1_950_autogen.dir/clean
 
 CMakeFiles/navigation_a1_950_autogen.dir/depend:
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/knapsack/workspaces/boh_ws/src/go1_autonomy /home/knapsack/workspaces/boh_ws/src/go1_autonomy /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/navigation_a1_950_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amrl/workspaces/boh_ws/src/go1_autonomy /home/amrl/workspaces/boh_ws/src/go1_autonomy /home/amrl/workspaces/boh_ws/src/go1_autonomy/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/navigation_a1_950_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/navigation_a1_950_autogen.dir/depend
 

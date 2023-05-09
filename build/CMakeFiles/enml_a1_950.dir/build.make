@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/knapsack/workspaces/boh_ws/src/go1_autonomy
+CMAKE_SOURCE_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build
+CMAKE_BINARY_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/enml_a1_950.dir/depend.make
@@ -120,16 +120,16 @@ CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization_main_950.cpp.o: ../a
 CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization_main_950.cpp.o: ../unitree_ros/unitree_legged_msgs/package.xml
 CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization_main_950.cpp.o: ../amrl_msgs/msg_gen/generated
 CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization_main_950.cpp.o: ../amrl_msgs/srv_gen/generated
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization_main_950.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization_main_950.cpp.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/enml/src/non_markov_localization_main_950.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization_main_950.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization_main_950.cpp.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/enml/src/non_markov_localization_main_950.cpp
 
 CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization_main_950.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization_main_950.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/enml/src/non_markov_localization_main_950.cpp > CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization_main_950.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/enml/src/non_markov_localization_main_950.cpp > CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization_main_950.cpp.i
 
 CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization_main_950.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization_main_950.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/enml/src/non_markov_localization_main_950.cpp -o CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization_main_950.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/enml/src/non_markov_localization_main_950.cpp -o CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization_main_950.cpp.s
 
 CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization_main_950.cpp.o.requires:
 
@@ -205,16 +205,16 @@ CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization.cpp.o: ../amrl_msgs/
 CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization.cpp.o: ../unitree_ros/unitree_legged_msgs/package.xml
 CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization.cpp.o: ../amrl_msgs/msg_gen/generated
 CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization.cpp.o: ../amrl_msgs/srv_gen/generated
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization.cpp.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/enml/src/non_markov_localization.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization.cpp.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/enml/src/non_markov_localization.cpp
 
 CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/enml/src/non_markov_localization.cpp > CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/enml/src/non_markov_localization.cpp > CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization.cpp.i
 
 CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/enml/src/non_markov_localization.cpp -o CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/enml/src/non_markov_localization.cpp -o CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization.cpp.s
 
 CMakeFiles/enml_a1_950.dir/enml/src/non_markov_localization.cpp.o.requires:
 
@@ -290,16 +290,16 @@ CMakeFiles/enml_a1_950.dir/enml/src/kdtree.cpp.o: ../amrl_msgs/manifest.xml
 CMakeFiles/enml_a1_950.dir/enml/src/kdtree.cpp.o: ../unitree_ros/unitree_legged_msgs/package.xml
 CMakeFiles/enml_a1_950.dir/enml/src/kdtree.cpp.o: ../amrl_msgs/msg_gen/generated
 CMakeFiles/enml_a1_950.dir/enml/src/kdtree.cpp.o: ../amrl_msgs/srv_gen/generated
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/enml_a1_950.dir/enml/src/kdtree.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enml_a1_950.dir/enml/src/kdtree.cpp.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/enml/src/kdtree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/enml_a1_950.dir/enml/src/kdtree.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enml_a1_950.dir/enml/src/kdtree.cpp.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/enml/src/kdtree.cpp
 
 CMakeFiles/enml_a1_950.dir/enml/src/kdtree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enml_a1_950.dir/enml/src/kdtree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/enml/src/kdtree.cpp > CMakeFiles/enml_a1_950.dir/enml/src/kdtree.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/enml/src/kdtree.cpp > CMakeFiles/enml_a1_950.dir/enml/src/kdtree.cpp.i
 
 CMakeFiles/enml_a1_950.dir/enml/src/kdtree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enml_a1_950.dir/enml/src/kdtree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/enml/src/kdtree.cpp -o CMakeFiles/enml_a1_950.dir/enml/src/kdtree.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/enml/src/kdtree.cpp -o CMakeFiles/enml_a1_950.dir/enml/src/kdtree.cpp.s
 
 CMakeFiles/enml_a1_950.dir/enml/src/kdtree.cpp.o.requires:
 
@@ -375,16 +375,16 @@ CMakeFiles/enml_a1_950.dir/enml/src/perception_2d.cpp.o: ../amrl_msgs/manifest.x
 CMakeFiles/enml_a1_950.dir/enml/src/perception_2d.cpp.o: ../unitree_ros/unitree_legged_msgs/package.xml
 CMakeFiles/enml_a1_950.dir/enml/src/perception_2d.cpp.o: ../amrl_msgs/msg_gen/generated
 CMakeFiles/enml_a1_950.dir/enml/src/perception_2d.cpp.o: ../amrl_msgs/srv_gen/generated
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/enml_a1_950.dir/enml/src/perception_2d.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enml_a1_950.dir/enml/src/perception_2d.cpp.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/enml/src/perception_2d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/enml_a1_950.dir/enml/src/perception_2d.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enml_a1_950.dir/enml/src/perception_2d.cpp.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/enml/src/perception_2d.cpp
 
 CMakeFiles/enml_a1_950.dir/enml/src/perception_2d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enml_a1_950.dir/enml/src/perception_2d.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/enml/src/perception_2d.cpp > CMakeFiles/enml_a1_950.dir/enml/src/perception_2d.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/enml/src/perception_2d.cpp > CMakeFiles/enml_a1_950.dir/enml/src/perception_2d.cpp.i
 
 CMakeFiles/enml_a1_950.dir/enml/src/perception_2d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enml_a1_950.dir/enml/src/perception_2d.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/enml/src/perception_2d.cpp -o CMakeFiles/enml_a1_950.dir/enml/src/perception_2d.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/enml/src/perception_2d.cpp -o CMakeFiles/enml_a1_950.dir/enml/src/perception_2d.cpp.s
 
 CMakeFiles/enml_a1_950.dir/enml/src/perception_2d.cpp.o.requires:
 
@@ -460,16 +460,16 @@ CMakeFiles/enml_a1_950.dir/enml/src/vector_map/vector_map.cc.o: ../amrl_msgs/man
 CMakeFiles/enml_a1_950.dir/enml/src/vector_map/vector_map.cc.o: ../unitree_ros/unitree_legged_msgs/package.xml
 CMakeFiles/enml_a1_950.dir/enml/src/vector_map/vector_map.cc.o: ../amrl_msgs/msg_gen/generated
 CMakeFiles/enml_a1_950.dir/enml/src/vector_map/vector_map.cc.o: ../amrl_msgs/srv_gen/generated
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/enml_a1_950.dir/enml/src/vector_map/vector_map.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enml_a1_950.dir/enml/src/vector_map/vector_map.cc.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/enml/src/vector_map/vector_map.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/enml_a1_950.dir/enml/src/vector_map/vector_map.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enml_a1_950.dir/enml/src/vector_map/vector_map.cc.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/enml/src/vector_map/vector_map.cc
 
 CMakeFiles/enml_a1_950.dir/enml/src/vector_map/vector_map.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enml_a1_950.dir/enml/src/vector_map/vector_map.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/enml/src/vector_map/vector_map.cc > CMakeFiles/enml_a1_950.dir/enml/src/vector_map/vector_map.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/enml/src/vector_map/vector_map.cc > CMakeFiles/enml_a1_950.dir/enml/src/vector_map/vector_map.cc.i
 
 CMakeFiles/enml_a1_950.dir/enml/src/vector_map/vector_map.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enml_a1_950.dir/enml/src/vector_map/vector_map.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/enml/src/vector_map/vector_map.cc -o CMakeFiles/enml_a1_950.dir/enml/src/vector_map/vector_map.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/enml/src/vector_map/vector_map.cc -o CMakeFiles/enml_a1_950.dir/enml/src/vector_map/vector_map.cc.s
 
 CMakeFiles/enml_a1_950.dir/enml/src/vector_map/vector_map.cc.o.requires:
 
@@ -545,16 +545,16 @@ CMakeFiles/enml_a1_950.dir/enml/src/visualization/visualization.cc.o: ../amrl_ms
 CMakeFiles/enml_a1_950.dir/enml/src/visualization/visualization.cc.o: ../unitree_ros/unitree_legged_msgs/package.xml
 CMakeFiles/enml_a1_950.dir/enml/src/visualization/visualization.cc.o: ../amrl_msgs/msg_gen/generated
 CMakeFiles/enml_a1_950.dir/enml/src/visualization/visualization.cc.o: ../amrl_msgs/srv_gen/generated
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/enml_a1_950.dir/enml/src/visualization/visualization.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enml_a1_950.dir/enml/src/visualization/visualization.cc.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/enml/src/visualization/visualization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/enml_a1_950.dir/enml/src/visualization/visualization.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enml_a1_950.dir/enml/src/visualization/visualization.cc.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/enml/src/visualization/visualization.cc
 
 CMakeFiles/enml_a1_950.dir/enml/src/visualization/visualization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enml_a1_950.dir/enml/src/visualization/visualization.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/enml/src/visualization/visualization.cc > CMakeFiles/enml_a1_950.dir/enml/src/visualization/visualization.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/enml/src/visualization/visualization.cc > CMakeFiles/enml_a1_950.dir/enml/src/visualization/visualization.cc.i
 
 CMakeFiles/enml_a1_950.dir/enml/src/visualization/visualization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enml_a1_950.dir/enml/src/visualization/visualization.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/enml/src/visualization/visualization.cc -o CMakeFiles/enml_a1_950.dir/enml/src/visualization/visualization.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/enml/src/visualization/visualization.cc -o CMakeFiles/enml_a1_950.dir/enml/src/visualization/visualization.cc.s
 
 CMakeFiles/enml_a1_950.dir/enml/src/visualization/visualization.cc.o.requires:
 
@@ -630,16 +630,16 @@ CMakeFiles/enml_a1_950.dir/enml/src/visualization/gui_helpers.cc.o: ../amrl_msgs
 CMakeFiles/enml_a1_950.dir/enml/src/visualization/gui_helpers.cc.o: ../unitree_ros/unitree_legged_msgs/package.xml
 CMakeFiles/enml_a1_950.dir/enml/src/visualization/gui_helpers.cc.o: ../amrl_msgs/msg_gen/generated
 CMakeFiles/enml_a1_950.dir/enml/src/visualization/gui_helpers.cc.o: ../amrl_msgs/srv_gen/generated
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/enml_a1_950.dir/enml/src/visualization/gui_helpers.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enml_a1_950.dir/enml/src/visualization/gui_helpers.cc.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/enml/src/visualization/gui_helpers.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/enml_a1_950.dir/enml/src/visualization/gui_helpers.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enml_a1_950.dir/enml/src/visualization/gui_helpers.cc.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/enml/src/visualization/gui_helpers.cc
 
 CMakeFiles/enml_a1_950.dir/enml/src/visualization/gui_helpers.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enml_a1_950.dir/enml/src/visualization/gui_helpers.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/enml/src/visualization/gui_helpers.cc > CMakeFiles/enml_a1_950.dir/enml/src/visualization/gui_helpers.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/enml/src/visualization/gui_helpers.cc > CMakeFiles/enml_a1_950.dir/enml/src/visualization/gui_helpers.cc.i
 
 CMakeFiles/enml_a1_950.dir/enml/src/visualization/gui_helpers.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enml_a1_950.dir/enml/src/visualization/gui_helpers.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/enml/src/visualization/gui_helpers.cc -o CMakeFiles/enml_a1_950.dir/enml/src/visualization/gui_helpers.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/enml/src/visualization/gui_helpers.cc -o CMakeFiles/enml_a1_950.dir/enml/src/visualization/gui_helpers.cc.s
 
 CMakeFiles/enml_a1_950.dir/enml/src/visualization/gui_helpers.cc.o.requires:
 
@@ -654,16 +654,16 @@ CMakeFiles/enml_a1_950.dir/enml/src/visualization/gui_helpers.cc.o.provides.buil
 
 CMakeFiles/enml_a1_950.dir/enml_a1_950_autogen/mocs_compilation.cpp.o: CMakeFiles/enml_a1_950.dir/flags.make
 CMakeFiles/enml_a1_950.dir/enml_a1_950_autogen/mocs_compilation.cpp.o: enml_a1_950_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/enml_a1_950.dir/enml_a1_950_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enml_a1_950.dir/enml_a1_950_autogen/mocs_compilation.cpp.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/enml_a1_950_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/enml_a1_950.dir/enml_a1_950_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enml_a1_950.dir/enml_a1_950_autogen/mocs_compilation.cpp.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/enml_a1_950_autogen/mocs_compilation.cpp
 
 CMakeFiles/enml_a1_950.dir/enml_a1_950_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enml_a1_950.dir/enml_a1_950_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/enml_a1_950_autogen/mocs_compilation.cpp > CMakeFiles/enml_a1_950.dir/enml_a1_950_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/enml_a1_950_autogen/mocs_compilation.cpp > CMakeFiles/enml_a1_950.dir/enml_a1_950_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/enml_a1_950.dir/enml_a1_950_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enml_a1_950.dir/enml_a1_950_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/enml_a1_950_autogen/mocs_compilation.cpp -o CMakeFiles/enml_a1_950.dir/enml_a1_950_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/enml_a1_950_autogen/mocs_compilation.cpp -o CMakeFiles/enml_a1_950.dir/enml_a1_950_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/enml_a1_950.dir/enml_a1_950_autogen/mocs_compilation.cpp.o.requires:
 
@@ -699,7 +699,7 @@ enml_a1_950_EXTERNAL_OBJECTS =
 ../bin/enml_a1_950: CMakeFiles/enml_a1_950.dir/enml/src/visualization/gui_helpers.cc.o
 ../bin/enml_a1_950: CMakeFiles/enml_a1_950.dir/enml_a1_950_autogen/mocs_compilation.cpp.o
 ../bin/enml_a1_950: CMakeFiles/enml_a1_950.dir/build.make
-../bin/enml_a1_950: /usr/lib/libceres.so.1.13.0
+../bin/enml_a1_950: /usr/local/lib/libceres.a
 ../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/liblua5.1.so
 ../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libm.so
 ../bin/enml_a1_950: ../lib/libamrl_shared_lib.so
@@ -707,8 +707,35 @@ enml_a1_950_EXTERNAL_OBJECTS =
 ../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libm.so
 ../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libglog.so
 ../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.1
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libspqr.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libtbbmalloc.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libtbb.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libcholmod.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libccolamd.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libcamd.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libcolamd.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libamd.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/liblapack.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libf77blas.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libatlas.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/librt.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libcxsparse.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libtbbmalloc.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libtbb.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libcholmod.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libccolamd.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libcamd.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libcolamd.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libamd.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/liblapack.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libf77blas.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libatlas.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/librt.so
+../bin/enml_a1_950: /usr/lib/x86_64-linux-gnu/libcxsparse.so
 ../bin/enml_a1_950: CMakeFiles/enml_a1_950.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../bin/enml_a1_950"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../bin/enml_a1_950"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/enml_a1_950.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -732,6 +759,6 @@ CMakeFiles/enml_a1_950.dir/clean:
 .PHONY : CMakeFiles/enml_a1_950.dir/clean
 
 CMakeFiles/enml_a1_950.dir/depend:
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/knapsack/workspaces/boh_ws/src/go1_autonomy /home/knapsack/workspaces/boh_ws/src/go1_autonomy /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/enml_a1_950.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amrl/workspaces/boh_ws/src/go1_autonomy /home/amrl/workspaces/boh_ws/src/go1_autonomy /home/amrl/workspaces/boh_ws/src/go1_autonomy/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/enml_a1_950.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/enml_a1_950.dir/depend
 

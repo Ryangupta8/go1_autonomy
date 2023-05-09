@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/gtest/googlemock/gtest/gtest_autogen/mocs_compilation.cpp" "/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/gtest/googlemock/gtest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.o"
-  "/usr/src/googletest/googletest/src/gtest-all.cc" "/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+  "/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/gtest/googlemock/gtest/gtest_autogen/mocs_compilation.cpp" "/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/gtest/googlemock/gtest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.o"
+  "/usr/src/googletest/googletest/src/gtest-all.cc" "/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -20,7 +20,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "gtest/googlemock/gtest"
   "/usr/src/googletest/googletest"
   "gtest/googlemock/gtest/gtest_autogen/include"
-  "/home/knapsack/workspaces/boh_ws/src/go1_autonomy/include"
+  "/home/amrl/workspaces/boh_ws/src/go1_autonomy/include"
+  "/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg_gen/cpp/include"
+  "/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/srv_gen/cpp/include"
+  "/home/amrl/workspaces/boh_ws/devel/.private/unitree_legged_msgs/include"
+  "/opt/ros/melodic/include"
   "/usr/src/googletest/googletest/include"
   )
 

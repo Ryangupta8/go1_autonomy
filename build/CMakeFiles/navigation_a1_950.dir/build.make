@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/knapsack/workspaces/boh_ws/src/go1_autonomy
+CMAKE_SOURCE_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build
+CMAKE_BINARY_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/navigation_a1_950.dir/depend.make
@@ -120,16 +120,16 @@ CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation_main
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation_main_950.cc.o: ../unitree_ros/unitree_legged_msgs/package.xml
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation_main_950.cc.o: ../amrl_msgs/msg_gen/generated
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation_main_950.cc.o: ../amrl_msgs/srv_gen/generated
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation_main_950.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation_main_950.cc.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_main_950.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation_main_950.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation_main_950.cc.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_main_950.cc
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation_main_950.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation_main_950.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_main_950.cc > CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation_main_950.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_main_950.cc > CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation_main_950.cc.i
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation_main_950.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation_main_950.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_main_950.cc -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation_main_950.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_main_950.cc -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation_main_950.cc.s
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation_main_950.cc.o.requires:
 
@@ -205,16 +205,16 @@ CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation.cc.o
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation.cc.o: ../unitree_ros/unitree_legged_msgs/package.xml
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation.cc.o: ../amrl_msgs/msg_gen/generated
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation.cc.o: ../amrl_msgs/srv_gen/generated
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation.cc.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation.cc.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation.cc
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation.cc > CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation.cc > CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation.cc.i
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation.cc -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation.cc -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation.cc.s
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation.cc.o.requires:
 
@@ -290,16 +290,16 @@ CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/motion_primitiv
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/motion_primitives.cc.o: ../unitree_ros/unitree_legged_msgs/package.xml
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/motion_primitives.cc.o: ../amrl_msgs/msg_gen/generated
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/motion_primitives.cc.o: ../amrl_msgs/srv_gen/generated
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/motion_primitives.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/motion_primitives.cc.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/motion_primitives.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/motion_primitives.cc.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.cc
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/motion_primitives.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/motion_primitives.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.cc > CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/motion_primitives.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.cc > CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/motion_primitives.cc.i
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/motion_primitives.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/motion_primitives.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.cc -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/motion_primitives.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.cc -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/motion_primitives.cc.s
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/motion_primitives.cc.o.requires:
 
@@ -375,16 +375,16 @@ CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/ackermann_motio
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/ackermann_motion_primitives.cc.o: ../unitree_ros/unitree_legged_msgs/package.xml
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/ackermann_motion_primitives.cc.o: ../amrl_msgs/msg_gen/generated
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/ackermann_motion_primitives.cc.o: ../amrl_msgs/srv_gen/generated
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/ackermann_motion_primitives.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/ackermann_motion_primitives.cc.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/ackermann_motion_primitives.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/ackermann_motion_primitives.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/ackermann_motion_primitives.cc.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/ackermann_motion_primitives.cc
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/ackermann_motion_primitives.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/ackermann_motion_primitives.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/ackermann_motion_primitives.cc > CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/ackermann_motion_primitives.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/ackermann_motion_primitives.cc > CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/ackermann_motion_primitives.cc.i
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/ackermann_motion_primitives.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/ackermann_motion_primitives.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/ackermann_motion_primitives.cc -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/ackermann_motion_primitives.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/ackermann_motion_primitives.cc -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/ackermann_motion_primitives.cc.s
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/ackermann_motion_primitives.cc.o.requires:
 
@@ -460,16 +460,16 @@ CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/constant_curvat
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/constant_curvature_arcs.cc.o: ../unitree_ros/unitree_legged_msgs/package.xml
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/constant_curvature_arcs.cc.o: ../amrl_msgs/msg_gen/generated
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/constant_curvature_arcs.cc.o: ../amrl_msgs/srv_gen/generated
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/constant_curvature_arcs.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/constant_curvature_arcs.cc.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/constant_curvature_arcs.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/constant_curvature_arcs.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/constant_curvature_arcs.cc.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/constant_curvature_arcs.cc
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/constant_curvature_arcs.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/constant_curvature_arcs.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/constant_curvature_arcs.cc > CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/constant_curvature_arcs.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/constant_curvature_arcs.cc > CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/constant_curvature_arcs.cc.i
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/constant_curvature_arcs.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/constant_curvature_arcs.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/constant_curvature_arcs.cc -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/constant_curvature_arcs.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/constant_curvature_arcs.cc -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/constant_curvature_arcs.cc.s
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/constant_curvature_arcs.cc.o.requires:
 
@@ -545,16 +545,16 @@ CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/linear_evaluato
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/linear_evaluator.cc.o: ../unitree_ros/unitree_legged_msgs/package.xml
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/linear_evaluator.cc.o: ../amrl_msgs/msg_gen/generated
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/linear_evaluator.cc.o: ../amrl_msgs/srv_gen/generated
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/linear_evaluator.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/linear_evaluator.cc.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/linear_evaluator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/linear_evaluator.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/linear_evaluator.cc.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/linear_evaluator.cc
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/linear_evaluator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/linear_evaluator.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/linear_evaluator.cc > CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/linear_evaluator.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/linear_evaluator.cc > CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/linear_evaluator.cc.i
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/linear_evaluator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/linear_evaluator.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/linear_evaluator.cc -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/linear_evaluator.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/linear_evaluator.cc -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/linear_evaluator.cc.s
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/linear_evaluator.cc.o.requires:
 
@@ -630,16 +630,16 @@ CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_tiler.cc.
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_tiler.cc.o: ../unitree_ros/unitree_legged_msgs/package.xml
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_tiler.cc.o: ../amrl_msgs/msg_gen/generated
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_tiler.cc.o: ../amrl_msgs/srv_gen/generated
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_tiler.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_tiler.cc.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_tiler.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_tiler.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_tiler.cc.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_tiler.cc
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_tiler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_tiler.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_tiler.cc > CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_tiler.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_tiler.cc > CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_tiler.cc.i
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_tiler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_tiler.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_tiler.cc -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_tiler.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_tiler.cc -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_tiler.cc.s
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_tiler.cc.o.requires:
 
@@ -715,16 +715,16 @@ CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/deep_cost_map_e
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/deep_cost_map_evaluator.cc.o: ../unitree_ros/unitree_legged_msgs/package.xml
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/deep_cost_map_evaluator.cc.o: ../amrl_msgs/msg_gen/generated
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/deep_cost_map_evaluator.cc.o: ../amrl_msgs/srv_gen/generated
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/deep_cost_map_evaluator.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/deep_cost_map_evaluator.cc.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/deep_cost_map_evaluator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/deep_cost_map_evaluator.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/deep_cost_map_evaluator.cc.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/deep_cost_map_evaluator.cc
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/deep_cost_map_evaluator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/deep_cost_map_evaluator.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/deep_cost_map_evaluator.cc > CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/deep_cost_map_evaluator.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/deep_cost_map_evaluator.cc > CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/deep_cost_map_evaluator.cc.i
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/deep_cost_map_evaluator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/deep_cost_map_evaluator.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/deep_cost_map_evaluator.cc -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/deep_cost_map_evaluator.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/deep_cost_map_evaluator.cc -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/deep_cost_map_evaluator.cc.s
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/deep_cost_map_evaluator.cc.o.requires:
 
@@ -800,16 +800,16 @@ CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_based_eva
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_based_evaluator.cc.o: ../unitree_ros/unitree_legged_msgs/package.xml
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_based_evaluator.cc.o: ../amrl_msgs/msg_gen/generated
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_based_evaluator.cc.o: ../amrl_msgs/srv_gen/generated
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_based_evaluator.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_based_evaluator.cc.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_based_evaluator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_based_evaluator.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_based_evaluator.cc.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_based_evaluator.cc
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_based_evaluator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_based_evaluator.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_based_evaluator.cc > CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_based_evaluator.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_based_evaluator.cc > CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_based_evaluator.cc.i
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_based_evaluator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_based_evaluator.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_based_evaluator.cc -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_based_evaluator.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_based_evaluator.cc -o CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_based_evaluator.cc.s
 
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_based_evaluator.cc.o.requires:
 
@@ -824,16 +824,16 @@ CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_based_eva
 
 CMakeFiles/navigation_a1_950.dir/navigation_a1_950_autogen/mocs_compilation.cpp.o: CMakeFiles/navigation_a1_950.dir/flags.make
 CMakeFiles/navigation_a1_950.dir/navigation_a1_950_autogen/mocs_compilation.cpp.o: navigation_a1_950_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/navigation_a1_950.dir/navigation_a1_950_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation_a1_950.dir/navigation_a1_950_autogen/mocs_compilation.cpp.o -c /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/navigation_a1_950_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/navigation_a1_950.dir/navigation_a1_950_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation_a1_950.dir/navigation_a1_950_autogen/mocs_compilation.cpp.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/navigation_a1_950_autogen/mocs_compilation.cpp
 
 CMakeFiles/navigation_a1_950.dir/navigation_a1_950_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/navigation_a1_950.dir/navigation_a1_950_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/navigation_a1_950_autogen/mocs_compilation.cpp > CMakeFiles/navigation_a1_950.dir/navigation_a1_950_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/navigation_a1_950_autogen/mocs_compilation.cpp > CMakeFiles/navigation_a1_950.dir/navigation_a1_950_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/navigation_a1_950.dir/navigation_a1_950_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/navigation_a1_950.dir/navigation_a1_950_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/navigation_a1_950_autogen/mocs_compilation.cpp -o CMakeFiles/navigation_a1_950.dir/navigation_a1_950_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/navigation_a1_950_autogen/mocs_compilation.cpp -o CMakeFiles/navigation_a1_950.dir/navigation_a1_950_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/navigation_a1_950.dir/navigation_a1_950_autogen/mocs_compilation.cpp.o.requires:
 
@@ -926,7 +926,7 @@ navigation_a1_950_EXTERNAL_OBJECTS =
 ../bin/navigation_a1_950: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 ../bin/navigation_a1_950: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 ../bin/navigation_a1_950: CMakeFiles/navigation_a1_950.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ../bin/navigation_a1_950"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ../bin/navigation_a1_950"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/navigation_a1_950.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -952,6 +952,6 @@ CMakeFiles/navigation_a1_950.dir/clean:
 .PHONY : CMakeFiles/navigation_a1_950.dir/clean
 
 CMakeFiles/navigation_a1_950.dir/depend:
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/knapsack/workspaces/boh_ws/src/go1_autonomy /home/knapsack/workspaces/boh_ws/src/go1_autonomy /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/navigation_a1_950.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amrl/workspaces/boh_ws/src/go1_autonomy /home/amrl/workspaces/boh_ws/src/go1_autonomy /home/amrl/workspaces/boh_ws/src/go1_autonomy/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/navigation_a1_950.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/navigation_a1_950.dir/depend
 

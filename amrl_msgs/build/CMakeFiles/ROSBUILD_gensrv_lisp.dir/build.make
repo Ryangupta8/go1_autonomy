@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs
+CMAKE_SOURCE_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build
+CMAKE_BINARY_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build
 
 # Utility rule file for ROSBUILD_gensrv_lisp.
 
@@ -119,8 +119,8 @@ CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package_SocialPipsSrv.lisp
 ../srv_gen/lisp/SocialPipsSrv.lisp: /opt/ros/melodic/share/tf2_ros/package.xml
 ../srv_gen/lisp/SocialPipsSrv.lisp: /opt/ros/melodic/share/tf/package.xml
 ../srv_gen/lisp/SocialPipsSrv.lisp: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../srv_gen/lisp/SocialPipsSrv.lisp, ../srv_gen/lisp/_package.lisp, ../srv_gen/lisp/_package_SocialPipsSrv.lisp"
-	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/srv/SocialPipsSrv.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../srv_gen/lisp/SocialPipsSrv.lisp, ../srv_gen/lisp/_package.lisp, ../srv_gen/lisp/_package_SocialPipsSrv.lisp"
+	/opt/ros/melodic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/srv/SocialPipsSrv.srv
 
 ../srv_gen/lisp/_package.lisp: ../srv_gen/lisp/SocialPipsSrv.lisp
 	@$(CMAKE_COMMAND) -E touch_nocreate ../srv_gen/lisp/_package.lisp
@@ -146,6 +146,6 @@ CMakeFiles/ROSBUILD_gensrv_lisp.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_gensrv_lisp.dir/clean
 
 CMakeFiles/ROSBUILD_gensrv_lisp.dir/depend:
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles/ROSBUILD_gensrv_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles/ROSBUILD_gensrv_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_gensrv_lisp.dir/depend
 

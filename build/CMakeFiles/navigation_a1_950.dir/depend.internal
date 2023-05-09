@@ -12,34 +12,34 @@ CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/ackermann_motio
  ../config-reader/include/config_reader/types/config_generic.h
  ../config-reader/include/config_reader/types/config_numeric.h
  ../config-reader/include/config_reader/types/type_interface.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/ackermann_motion_primitives.cc
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/ackermann_motion_primitives.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/constant_curvature_arcs.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_parameters.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/ackermann_motion_primitives.cc
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/ackermann_motion_primitives.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/constant_curvature_arcs.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_parameters.h
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/constant_curvature_arcs.cc.o
  ../amrl_shared_lib/math/geometry.h
  ../amrl_shared_lib/math/line2d.h
  ../amrl_shared_lib/math/math_util.h
  ../amrl_shared_lib/math/poses_2d.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/constant_curvature_arcs.cc
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/constant_curvature_arcs.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_parameters.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/constant_curvature_arcs.cc
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/constant_curvature_arcs.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_parameters.h
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/deep_cost_map_evaluator.cc.o
  ../amrl_shared_lib/math/geometry.h
  ../amrl_shared_lib/math/line2d.h
  ../amrl_shared_lib/math/math_util.h
  ../amrl_shared_lib/math/poses_2d.h
  ../graph_navigation/src/shared/util/timer.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/ackermann_motion_primitives.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/constant_curvature_arcs.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/deep_cost_map_evaluator.cc
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/deep_cost_map_evaluator.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_based_evaluator.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_tiler.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_parameters.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/ackermann_motion_primitives.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/constant_curvature_arcs.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/deep_cost_map_evaluator.cc
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/deep_cost_map_evaluator.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_based_evaluator.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_tiler.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_parameters.h
  /opt/libtorch/include/ATen/ATen.h
  /opt/libtorch/include/ATen/CPUGeneratorImpl.h
  /opt/libtorch/include/ATen/Config.h
@@ -4497,33 +4497,33 @@ CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_based_eva
  ../amrl_shared_lib/math/line2d.h
  ../amrl_shared_lib/math/math_util.h
  ../amrl_shared_lib/math/poses_2d.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_based_evaluator.cc
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_based_evaluator.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_parameters.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_based_evaluator.cc
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_based_evaluator.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_parameters.h
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/image_tiler.cc.o
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_tiler.cc
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_tiler.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_tiler.cc
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_tiler.h
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/linear_evaluator.cc.o
  ../amrl_shared_lib/math/geometry.h
  ../amrl_shared_lib/math/line2d.h
  ../amrl_shared_lib/math/math_util.h
  ../amrl_shared_lib/math/poses_2d.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/ackermann_motion_primitives.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/constant_curvature_arcs.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/linear_evaluator.cc
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/linear_evaluator.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_parameters.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/ackermann_motion_primitives.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/constant_curvature_arcs.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/linear_evaluator.cc
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/linear_evaluator.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_parameters.h
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/motion_primitives.cc.o
  ../amrl_shared_lib/math/geometry.h
  ../amrl_shared_lib/math/line2d.h
  ../amrl_shared_lib/math/math_util.h
  ../amrl_shared_lib/math/poses_2d.h
  ../graph_navigation/src/shared/math/math_util.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.cc
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_parameters.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.cc
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_parameters.h
 CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation.cc.o
  ../amrl_shared_lib/math/geometry.h
  ../amrl_shared_lib/math/line2d.h
@@ -4543,19 +4543,19 @@ CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation.cc.o
  ../graph_navigation/src/shared/util/timer.h
  ../graph_navigation/src/third_party/nlohmann/json.hpp
  ../graph_navigation/src/vector_map/vector_map.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/ackermann_motion_primitives.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/astar.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/constant_curvature_arcs.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/deep_cost_map_evaluator.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/eight_connected_domain.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/graph_domain.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_based_evaluator.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/linear_evaluator.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation.cc
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_parameters.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/simple_queue.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/ackermann_motion_primitives.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/astar.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/constant_curvature_arcs.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/deep_cost_map_evaluator.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/eight_connected_domain.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/graph_domain.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/image_based_evaluator.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/linear_evaluator.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation.cc
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_parameters.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/simple_queue.h
  /opt/libtorch/include/ATen/ATen.h
  /opt/libtorch/include/ATen/CPUGeneratorImpl.h
  /opt/libtorch/include/ATen/Config.h
@@ -9082,14 +9082,14 @@ CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation_main
  ../graph_navigation/src/vector_map/vector_map.h
  ../graph_navigation/src/visualization/visualization.h
  ../srv_gen/cpp/include/go1_autonomy/graphNavSrv.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/constant_curvature_arcs.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/eight_connected_domain.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/graph_domain.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_main_950.cc
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_parameters.h
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/simple_queue.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/constant_curvature_arcs.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/eight_connected_domain.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/graph_domain.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/motion_primitives.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_main_950.cc
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/navigation_parameters.h
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/graph_navigation/src/navigation/simple_queue.h
  /opt/ros/melodic/include/actionlib_msgs/GoalID.h
  /opt/ros/melodic/include/actionlib_msgs/GoalStatus.h
  /opt/ros/melodic/include/cv_bridge/cv_bridge.h
@@ -9222,4 +9222,4 @@ CMakeFiles/navigation_a1_950.dir/graph_navigation/src/navigation/navigation_main
  /opt/ros/melodic/include/xmlrpcpp/XmlRpcDecl.h
  /opt/ros/melodic/include/xmlrpcpp/XmlRpcValue.h
 CMakeFiles/navigation_a1_950.dir/navigation_a1_950_autogen/mocs_compilation.cpp.o
- /home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/navigation_a1_950_autogen/mocs_compilation.cpp
+ /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/navigation_a1_950_autogen/mocs_compilation.cpp

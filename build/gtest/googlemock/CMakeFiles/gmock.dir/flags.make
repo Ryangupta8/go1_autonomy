@@ -6,5 +6,5 @@ CXX_FLAGS = -march=native -Wall -Werror -g -Wno-unused-function -fopenmp -fno-bu
 
 CXX_DEFINES = -DGTEST_CREATE_SHARED_LIBRARY=1 -DROS_PACKAGE_NAME=\"go1_autonomy\" -Dgmock_EXPORTS
 
-CXX_INCLUDES = -I/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/gtest/googlemock -I/usr/src/googletest/googlemock -I/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/gtest/googlemock/gmock_autogen/include -I/home/knapsack/workspaces/boh_ws/src/go1_autonomy/include -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest 
+CXX_INCLUDES = -I/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/gtest/googlemock -I/usr/src/googletest/googlemock -I/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/gtest/googlemock/gmock_autogen/include -I/home/amrl/workspaces/boh_ws/src/go1_autonomy/include -I/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg_gen/cpp/include -I/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/srv_gen/cpp/include -I/home/amrl/workspaces/boh_ws/devel/.private/unitree_legged_msgs/include -I/opt/ros/melodic/include -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest 
 

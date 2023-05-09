@@ -3,10 +3,10 @@ function deg2rad(deg)
 end
 
 NavigationParameters = {
-  laser_topic = "/cloud2scan";
-  odom_topic = "/tracker/odom/sample";
+  laser_topic = "/scan";
+  odom_topic = "/robot/odom";
   localization_topic = "/localization";
-  image_topic = "/camera/color/image_raw/compressed";
+  -- image_topic = "/camera/color/image_raw/compressed";
   init_topic = "/initialpose";
   enable_topic = "autonomy_arbiter/enabled";
   laser_loc = {

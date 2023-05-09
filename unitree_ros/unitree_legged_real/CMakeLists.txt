@@ -69,9 +69,9 @@ add_dependencies(twist_sub ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED
 
 
 # Ryan Scripts
-# add_executable(go1_driver_main src/Go1HighDriver_main.cc)
-# target_link_libraries(go1_driver_main ${EXTRA_LIBS}
-#     ${catkin_LIBRARIES})
-# add_dependencies(go1_driver_main ${${PROJECT_NAME}_EXPORTED_TARGETS}
-#     ${catkin_EXPORTED_TARGETS})
+add_executable(go1_driver_main src/go1_cmd_convert.cc)
+target_link_libraries(go1_driver_main ${EXTRA_LIBS}
+    ${catkin_LIBRARIES})
+add_dependencies(go1_driver_main ${${PROJECT_NAME}_EXPORTED_TARGETS}
+    ${catkin_EXPORTED_TARGETS})
 ##

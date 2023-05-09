@@ -130,9 +130,9 @@ vector
 config_reader/lua_script.h
 ../config-reader/include/config_reader/types/config_reader/lua_script.h
 
-/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/pointcloud_to_laserscan_autogen/mocs_compilation.cpp
+/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/pointcloud_to_laserscan_autogen/mocs_compilation.cpp
 
-/home/knapsack/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc
+/home/amrl/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc
 signal.h
 -
 stdlib.h
@@ -148,31 +148,31 @@ inttypes.h
 vector
 -
 config_reader/config_reader.h
-/home/knapsack/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/config_reader/config_reader.h
+/home/amrl/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/config_reader/config_reader.h
 sensor_msgs/LaserScan.h
-/home/knapsack/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/sensor_msgs/LaserScan.h
+/home/amrl/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/sensor_msgs/LaserScan.h
 sensor_msgs/PointCloud2.h
-/home/knapsack/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/sensor_msgs/PointCloud2.h
+/home/amrl/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/sensor_msgs/PointCloud2.h
 sensor_msgs/point_cloud2_iterator.h
-/home/knapsack/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/sensor_msgs/point_cloud2_iterator.h
+/home/amrl/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/sensor_msgs/point_cloud2_iterator.h
 glog/logging.h
-/home/knapsack/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/glog/logging.h
+/home/amrl/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/glog/logging.h
 gflags/gflags.h
-/home/knapsack/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/gflags/gflags.h
+/home/amrl/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/gflags/gflags.h
 eigen3/Eigen/Dense
-/home/knapsack/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/eigen3/Eigen/Dense
+/home/amrl/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/eigen3/Eigen/Dense
 eigen3/Eigen/Geometry
-/home/knapsack/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/eigen3/Eigen/Geometry
+/home/amrl/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/eigen3/Eigen/Geometry
 gflags/gflags.h
-/home/knapsack/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/gflags/gflags.h
+/home/amrl/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/gflags/gflags.h
 ros/ros.h
-/home/knapsack/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/ros/ros.h
+/home/amrl/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/ros/ros.h
 math/math_util.h
-/home/knapsack/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/math/math_util.h
+/home/amrl/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/math/math_util.h
 util/timer.h
-/home/knapsack/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/util/timer.h
+/home/amrl/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/util/timer.h
 ros/ros_helpers.h
-/home/knapsack/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/ros/ros_helpers.h
+/home/amrl/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/ros/ros_helpers.h
 
 /opt/ros/melodic/include/geometry_msgs/Point.h
 string

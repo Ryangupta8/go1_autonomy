@@ -6,5 +6,5 @@ CXX_FLAGS = -march=native -Wall -Werror -g -Wno-unused-function -fopenmp -fno-bu
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"go1_autonomy\" -Damrl_shared_lib_EXPORTS
 
-CXX_INCLUDES = -I/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib -I/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib -I/home/knapsack/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib/amrl_shared_lib_autogen/include -I/home/knapsack/workspaces/boh_ws/src/go1_autonomy/include -I/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg_gen/cpp/include -I/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/srv_gen/cpp/include -I/home/knapsack/workspaces/boh_ws/devel/.private/unitree_legged_msgs/include -I/opt/ros/melodic/include 
+CXX_INCLUDES = -I/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib -I/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib -I/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib/amrl_shared_lib_autogen/include -I/home/amrl/workspaces/boh_ws/src/go1_autonomy/include -I/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg_gen/cpp/include -I/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/srv_gen/cpp/include -I/home/amrl/workspaces/boh_ws/devel/.private/unitree_legged_msgs/include -I/opt/ros/melodic/include 
 

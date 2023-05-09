@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs
+CMAKE_SOURCE_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build
+CMAKE_BINARY_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build
 
 # Utility rule file for ROSBUILD_gensrv_cpp.
 
@@ -118,8 +118,8 @@ CMakeFiles/ROSBUILD_gensrv_cpp: ../srv_gen/cpp/include/amrl_msgs/SocialPipsSrv.h
 ../srv_gen/cpp/include/amrl_msgs/SocialPipsSrv.h: /opt/ros/melodic/share/tf2_ros/package.xml
 ../srv_gen/cpp/include/amrl_msgs/SocialPipsSrv.h: /opt/ros/melodic/share/tf/package.xml
 ../srv_gen/cpp/include/amrl_msgs/SocialPipsSrv.h: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../srv_gen/cpp/include/amrl_msgs/SocialPipsSrv.h"
-	/opt/ros/melodic/share/roscpp/rosbuild/scripts/gensrv_cpp.py /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/srv/SocialPipsSrv.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../srv_gen/cpp/include/amrl_msgs/SocialPipsSrv.h"
+	/opt/ros/melodic/share/roscpp/rosbuild/scripts/gensrv_cpp.py /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/srv/SocialPipsSrv.srv
 
 ROSBUILD_gensrv_cpp: CMakeFiles/ROSBUILD_gensrv_cpp
 ROSBUILD_gensrv_cpp: ../srv_gen/cpp/include/amrl_msgs/SocialPipsSrv.h
@@ -137,6 +137,6 @@ CMakeFiles/ROSBUILD_gensrv_cpp.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_gensrv_cpp.dir/clean
 
 CMakeFiles/ROSBUILD_gensrv_cpp.dir/depend:
-	cd /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/knapsack/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles/ROSBUILD_gensrv_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles/ROSBUILD_gensrv_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_gensrv_cpp.dir/depend
 

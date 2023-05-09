@@ -8,8 +8,8 @@
                :sensor_msgs-msg
 )
   :components ((:file "_package")
-    (:file "socialNavSrv" :depends-on ("_package_socialNavSrv"))
-    (:file "_package_socialNavSrv" :depends-on ("_package"))
     (:file "graphNavSrv" :depends-on ("_package_graphNavSrv"))
     (:file "_package_graphNavSrv" :depends-on ("_package"))
+    (:file "socialNavSrv" :depends-on ("_package_socialNavSrv"))
+    (:file "_package_socialNavSrv" :depends-on ("_package"))
   ))
