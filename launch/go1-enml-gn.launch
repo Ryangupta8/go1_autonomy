@@ -4,23 +4,13 @@
     <arg name="odom_topic" default="/tracker/odom/sample"/>
     <arg name="scan_topic" default="/cloud2scan"/> 
     <arg name="localization_topic" default="/localization"/>-->
-    <arg name="graph_map_location" default="$(find a1_autonomy)/vectormaps"/>
-    <arg name="graph_map_name" default="AHG_Apartment_temp"/>
+    <arg name="graph_map_location" default="$(find go1_autonomy)/vectormaps"/>
+    <arg name="graph_map_name" default="YMCA0"/>
 
     <param name="use_sim_time" value="false"/>
 
     <!-- ENML -->
-    <node pkg="a1_autonomy" type="enml_a1_950" name="non_markov_localization_a1_950" output="screen"
-        args="--config_dir $(find a1_autonomy)/config --robot_config a1-950.lua --maps_dir $(find a1_autonomy)/enml/maps -d1" />
-    <!-- Vector Display -->
-    <node pkg="vector_display" type="vector_display" name="vector_display" output="screen"
-        args="--maps_dir $(arg graph_map_location) --map $(arg graph_map_name)" />
-    <!-- Graph Navigation -->
-    <node pkg="a1_autonomy" type="navigation_a1_950" name="graph_navigation" output="screen"
-        args="--map $(arg graph_map_name) --maps_dir $(arg graph_map_location) " >
-        <remap from="/navigation/cmd_vel" to="/cmd_vel"/>
-    </node>
+    <node pkg="go1_autonomy" type="enml_go1" name="non_markov_localization_go1" output="screen"
+        args="--config_dir $(find go1_autonomy)/config --robot_config go1.lua --maps_dir $(find go1_autonomy)/vectormaps -d1" />
 
-    <!-- node for converting localizatyion msg type -->
-    <node name="a1_localization_converter" pkg="a1_path_manager" type="a1_localization_converter" output="screen" />
 </launch>

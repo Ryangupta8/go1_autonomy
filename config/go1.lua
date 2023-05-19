@@ -7,7 +7,7 @@ RobotConfig = {
   };
   
   enml = {
-    map_name = "AHG_Apartment_temp";
+    map_name = "YMCA0";
     starting_loc_x = 5.0;
     starting_loc_y = 3.0;
     starting_angle = deg2rad(0);
