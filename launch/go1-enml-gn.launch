@@ -12,5 +12,9 @@
     <!-- ENML -->
     <node pkg="go1_autonomy" type="enml_go1" name="non_markov_localization_go1" output="screen"
         args="--config_dir $(find go1_autonomy)/config --robot_config go1.lua --maps_dir $(find go1_autonomy)/vectormaps -d1" />
+    <node pkg="go1_autonomy" type="navigation_go1" name="navigation_go1" output="screen"
+        args="--map $(arg graph_map_name) --maps_dir $(arg graph_map_location)" >
+        <remap from="/navigation/cmd_vel" to="/cmd_vel"/>
+    </node>
 
 </launch>
