@@ -2,7 +2,7 @@ RobotConfig = {
     name = "go1";
     scan_topic = "/scan";
     -- pointcloud_topic = "/velodyne_points";
-    odometry_topic = "/robot/odom";
+    odometry_topic = "/tracker/odom/sample";
     initialpose_topic = "/initialpose";
   };
   
@@ -15,7 +15,7 @@ RobotConfig = {
     -- VLP16 Sensor parameters.
     laser_std_dev = 0.01;
     min_point_cloud_range = 0.02;
-    max_point_cloud_range = 7.5;
+    max_point_cloud_range = 20.;
     max_normal_point_distance = 0.75;
     robot_sensor_offset = vec3(0.05, 0.0, 0.5);
     num_skip_readings = 1;

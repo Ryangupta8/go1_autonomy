@@ -140,7 +140,7 @@ float kOdometryTranslationScale = 1.0;
 // Minimum distance of observed points from the robot.
 float kMinPointCloudRange = 0.2;
 // Maximum distance of observed points from the robot.
-float kMaxPointCloudRange = 6.0;
+float kMaxPointCloudRange = 20.;
 // Maximum distance between adjacent points to use for computation of normals.
 float kMaxNormalPointDistance = 0.03;
 // The maximum expected odometry-reported translation difference per timestep.
@@ -743,7 +743,7 @@ bool AddPose(const sensor_msgs::LaserScanPtr& laser_message,
       localization_options_.sensor_offset.y());
   for (unsigned int i = 0; i < laser_message->ranges.size(); ++i) {
     if (laser_message->ranges[i] < kMinPointCloudRange ||
-        laser_message->ranges[i] > kMaxPointCloudRange ||
+        laser_message->ranges[i] >= kMaxPointCloudRange ||
         !std::isfinite(laser_message->ranges[i])) continue;
     const float angle = laser_message->angle_min +
         laser_message->angle_increment * static_cast<float>(i);

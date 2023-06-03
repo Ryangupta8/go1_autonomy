@@ -4,7 +4,7 @@ end
 
 NavigationParameters = {
   laser_topic = "/scan";
-  odom_topic = "/robot/odom";
+  odom_topic = "/tracker/odom/sample";
   localization_topic = "/localization";
   -- image_topic = "/camera/color/image_raw/compressed";
   init_topic = "/initialpose";
