@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy
+CMAKE_SOURCE_DIR = /home/amrl/workspaces/gcr_ws/src/go1_autonomy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy/build
+CMAKE_BINARY_DIR = /home/amrl/workspaces/gcr_ws/src/go1_autonomy/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pointcloud_to_laserscan.dir/depend.make
@@ -120,16 +120,16 @@ CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan/pointcloud_to_las
 CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc.o: ../unitree_ros/unitree_legged_msgs/package.xml
 CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc.o: ../amrl_msgs/msg_gen/generated
 CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc.o: ../amrl_msgs/srv_gen/generated
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc.o -c /home/amrl/workspaces/gcr_ws/src/go1_autonomy/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc
 
 CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc > CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/gcr_ws/src/go1_autonomy/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc > CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc.i
 
 CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc -o CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/gcr_ws/src/go1_autonomy/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc -o CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc.s
 
 CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan/pointcloud_to_laserscan_main.cc.o.requires:
 
@@ -144,16 +144,16 @@ CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan/pointcloud_to_las
 
 CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan_autogen/mocs_compilation.cpp.o: CMakeFiles/pointcloud_to_laserscan.dir/flags.make
 CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan_autogen/mocs_compilation.cpp.o: pointcloud_to_laserscan_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan_autogen/mocs_compilation.cpp.o -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/pointcloud_to_laserscan_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan_autogen/mocs_compilation.cpp.o -c /home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/pointcloud_to_laserscan_autogen/mocs_compilation.cpp
 
 CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/pointcloud_to_laserscan_autogen/mocs_compilation.cpp > CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/pointcloud_to_laserscan_autogen/mocs_compilation.cpp > CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/pointcloud_to_laserscan_autogen/mocs_compilation.cpp -o CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/pointcloud_to_laserscan_autogen/mocs_compilation.cpp -o CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/pointcloud_to_laserscan.dir/pointcloud_to_laserscan_autogen/mocs_compilation.cpp.o.requires:
 
@@ -184,7 +184,7 @@ pointcloud_to_laserscan_EXTERNAL_OBJECTS =
 ../bin/pointcloud_to_laserscan: /usr/lib/x86_64-linux-gnu/liblua5.1.so
 ../bin/pointcloud_to_laserscan: /usr/lib/x86_64-linux-gnu/libm.so
 ../bin/pointcloud_to_laserscan: CMakeFiles/pointcloud_to_laserscan.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/pointcloud_to_laserscan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/pointcloud_to_laserscan"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pointcloud_to_laserscan.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -202,6 +202,6 @@ CMakeFiles/pointcloud_to_laserscan.dir/clean:
 .PHONY : CMakeFiles/pointcloud_to_laserscan.dir/clean
 
 CMakeFiles/pointcloud_to_laserscan.dir/depend:
-	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amrl/workspaces/boh_ws/src/go1_autonomy /home/amrl/workspaces/boh_ws/src/go1_autonomy /home/amrl/workspaces/boh_ws/src/go1_autonomy/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/pointcloud_to_laserscan.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amrl/workspaces/gcr_ws/src/go1_autonomy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amrl/workspaces/gcr_ws/src/go1_autonomy /home/amrl/workspaces/gcr_ws/src/go1_autonomy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/build /home/amrl/workspaces/gcr_ws/src/go1_autonomy/build /home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/CMakeFiles/pointcloud_to_laserscan.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pointcloud_to_laserscan.dir/depend
 

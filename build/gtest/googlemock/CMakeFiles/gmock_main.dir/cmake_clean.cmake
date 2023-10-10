@@ -7,8 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/gmock_main.dir/src/gmock-all.cc.o"
   "CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
   "CMakeFiles/gmock_main.dir/gmock_main_autogen/mocs_compilation.cpp.o"
-  "/home/amrl/workspaces/boh_ws/src/go1_autonomy/lib/libgmock_main.pdb"
-  "/home/amrl/workspaces/boh_ws/src/go1_autonomy/lib/libgmock_main.so"
+  "/home/amrl/workspaces/gcr_ws/src/go1_autonomy/lib/libgmock_main.pdb"
+  "/home/amrl/workspaces/gcr_ws/src/go1_autonomy/lib/libgmock_main.so"
 )
 
 # Per-language clean rules from dependency scanning.

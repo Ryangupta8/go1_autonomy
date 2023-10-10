@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs
+CMAKE_SOURCE_DIR = /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build
+CMAKE_BINARY_DIR = /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build
 
 # Utility rule file for ROSBUILD_genmsg_py.
 
@@ -57,15 +57,19 @@ CMakeFiles/ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/__init__.py
 
 
 ../src/amrl_msgs/msg/__init__.py: ../src/amrl_msgs/msg/_AckermannCurvatureDriveMsg.py
+../src/amrl_msgs/msg/__init__.py: ../src/amrl_msgs/msg/_BBox2DArrayMsg.py
+../src/amrl_msgs/msg/__init__.py: ../src/amrl_msgs/msg/_BBox2DMsg.py
 ../src/amrl_msgs/msg/__init__.py: ../src/amrl_msgs/msg/_ColoredArc2D.py
 ../src/amrl_msgs/msg/__init__.py: ../src/amrl_msgs/msg/_ColoredLine2D.py
 ../src/amrl_msgs/msg/__init__.py: ../src/amrl_msgs/msg/_ColoredPoint2D.py
+../src/amrl_msgs/msg/__init__.py: ../src/amrl_msgs/msg/_ColoredText.py
 ../src/amrl_msgs/msg/__init__.py: ../src/amrl_msgs/msg/_ElevatorCommand.py
 ../src/amrl_msgs/msg/__init__.py: ../src/amrl_msgs/msg/_ElevatorStatus.py
 ../src/amrl_msgs/msg/__init__.py: ../src/amrl_msgs/msg/_ErrorReport.py
 ../src/amrl_msgs/msg/__init__.py: ../src/amrl_msgs/msg/_HumanStateArrayMsg.py
 ../src/amrl_msgs/msg/__init__.py: ../src/amrl_msgs/msg/_HumanStateMsg.py
 ../src/amrl_msgs/msg/__init__.py: ../src/amrl_msgs/msg/_Localization2DMsg.py
+../src/amrl_msgs/msg/__init__.py: ../src/amrl_msgs/msg/_NavStatusMsg.py
 ../src/amrl_msgs/msg/__init__.py: ../src/amrl_msgs/msg/_PathVisualization.py
 ../src/amrl_msgs/msg/__init__.py: ../src/amrl_msgs/msg/_PlanarObjDetection.py
 ../src/amrl_msgs/msg/__init__.py: ../src/amrl_msgs/msg/_Point2D.py
@@ -73,8 +77,8 @@ CMakeFiles/ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/__init__.py
 ../src/amrl_msgs/msg/__init__.py: ../src/amrl_msgs/msg/_RobofleetStatus.py
 ../src/amrl_msgs/msg/__init__.py: ../src/amrl_msgs/msg/_RobofleetSubscription.py
 ../src/amrl_msgs/msg/__init__.py: ../src/amrl_msgs/msg/_VisualizationMsg.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../src/amrl_msgs/msg/__init__.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --initpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/AckermannCurvatureDriveMsg.msg /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ColoredArc2D.msg /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ColoredLine2D.msg /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ColoredPoint2D.msg /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ElevatorCommand.msg /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ElevatorStatus.msg /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ErrorReport.msg /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/HumanStateArrayMsg.msg /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/HumanStateMsg.msg /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/Localization2DMsg.msg /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/PathVisualization.msg /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/PlanarObjDetection.msg /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/Point2D.msg /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/Pose2Df.msg /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/RobofleetStatus.msg /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/RobofleetSubscription.msg /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/VisualizationMsg.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../src/amrl_msgs/msg/__init__.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --initpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/AckermannCurvatureDriveMsg.msg /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/BBox2DArrayMsg.msg /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/BBox2DMsg.msg /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/ColoredArc2D.msg /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/ColoredLine2D.msg /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/ColoredPoint2D.msg /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/ColoredText.msg /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/ElevatorCommand.msg /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/ElevatorStatus.msg /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/ErrorReport.msg /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/HumanStateArrayMsg.msg /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/HumanStateMsg.msg /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/Localization2DMsg.msg /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/NavStatusMsg.msg /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/PathVisualization.msg /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/PlanarObjDetection.msg /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/Point2D.msg /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/Pose2Df.msg /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/RobofleetStatus.msg /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/RobofleetSubscription.msg /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/VisualizationMsg.msg
 
 ../src/amrl_msgs/msg/_AckermannCurvatureDriveMsg.py: ../msg/AckermannCurvatureDriveMsg.msg
 ../src/amrl_msgs/msg/_AckermannCurvatureDriveMsg.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py
@@ -137,8 +141,136 @@ CMakeFiles/ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/__init__.py
 ../src/amrl_msgs/msg/_AckermannCurvatureDriveMsg.py: /opt/ros/melodic/share/tf2_ros/package.xml
 ../src/amrl_msgs/msg/_AckermannCurvatureDriveMsg.py: /opt/ros/melodic/share/tf/package.xml
 ../src/amrl_msgs/msg/_AckermannCurvatureDriveMsg.py: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../src/amrl_msgs/msg/_AckermannCurvatureDriveMsg.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/AckermannCurvatureDriveMsg.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../src/amrl_msgs/msg/_AckermannCurvatureDriveMsg.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/AckermannCurvatureDriveMsg.msg
+
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: ../msg/BBox2DArrayMsg.msg
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/lib/roslib/gendeps
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: ../msg/BBox2DMsg.msg
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: ../manifest.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/cpp_common/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/rostime/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/roscpp_traits/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/roscpp_serialization/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/catkin/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/genmsg/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/genpy/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/message_runtime/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/std_msgs/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/geometry_msgs/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/gencpp/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/geneus/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/gennodejs/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/genlisp/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/message_generation/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/actionlib_msgs/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/nav_msgs/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/sensor_msgs/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/rosbuild/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/rosconsole/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/rosgraph_msgs/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/xmlrpcpp/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/roscpp/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/rosgraph/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/ros_environment/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/rospack/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/roslib/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/rospy/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/visualization_msgs/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/message_filters/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/rosclean/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/rosmaster/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/rosout/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/rosparam/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/rosunit/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/roslaunch/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/topic_tools/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/class_loader/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/pluginlib/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/roslz4/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/rosbag_storage/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/std_srvs/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/rosbag/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/rostopic/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/rosnode/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/rosmsg/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/rosservice/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/roswtf/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/rostest/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/actionlib/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/tf2_msgs/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/tf2/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/tf2_py/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/tf2_ros/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/tf/package.xml
+../src/amrl_msgs/msg/_BBox2DArrayMsg.py: /opt/ros/melodic/share/angles/package.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../src/amrl_msgs/msg/_BBox2DArrayMsg.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/BBox2DArrayMsg.msg
+
+../src/amrl_msgs/msg/_BBox2DMsg.py: ../msg/BBox2DMsg.msg
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/lib/roslib/gendeps
+../src/amrl_msgs/msg/_BBox2DMsg.py: ../manifest.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/cpp_common/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/rostime/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/roscpp_traits/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/roscpp_serialization/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/catkin/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/genmsg/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/genpy/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/message_runtime/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/std_msgs/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/geometry_msgs/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/gencpp/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/geneus/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/gennodejs/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/genlisp/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/message_generation/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/actionlib_msgs/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/nav_msgs/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/sensor_msgs/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/rosbuild/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/rosconsole/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/rosgraph_msgs/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/xmlrpcpp/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/roscpp/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/rosgraph/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/ros_environment/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/rospack/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/roslib/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/rospy/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/visualization_msgs/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/message_filters/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/rosclean/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/rosmaster/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/rosout/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/rosparam/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/rosunit/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/roslaunch/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/topic_tools/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/class_loader/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/pluginlib/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/roslz4/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/rosbag_storage/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/std_srvs/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/rosbag/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/rostopic/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/rosnode/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/rosmsg/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/rosservice/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/roswtf/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/rostest/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/actionlib/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/tf2_msgs/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/tf2/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/tf2_py/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/tf2_ros/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/tf/package.xml
+../src/amrl_msgs/msg/_BBox2DMsg.py: /opt/ros/melodic/share/angles/package.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ../src/amrl_msgs/msg/_BBox2DMsg.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/BBox2DMsg.msg
 
 ../src/amrl_msgs/msg/_ColoredArc2D.py: ../msg/ColoredArc2D.msg
 ../src/amrl_msgs/msg/_ColoredArc2D.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py
@@ -201,8 +333,8 @@ CMakeFiles/ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/__init__.py
 ../src/amrl_msgs/msg/_ColoredArc2D.py: /opt/ros/melodic/share/tf2_ros/package.xml
 ../src/amrl_msgs/msg/_ColoredArc2D.py: /opt/ros/melodic/share/tf/package.xml
 ../src/amrl_msgs/msg/_ColoredArc2D.py: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../src/amrl_msgs/msg/_ColoredArc2D.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ColoredArc2D.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ../src/amrl_msgs/msg/_ColoredArc2D.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/ColoredArc2D.msg
 
 ../src/amrl_msgs/msg/_ColoredLine2D.py: ../msg/ColoredLine2D.msg
 ../src/amrl_msgs/msg/_ColoredLine2D.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py
@@ -265,8 +397,8 @@ CMakeFiles/ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/__init__.py
 ../src/amrl_msgs/msg/_ColoredLine2D.py: /opt/ros/melodic/share/tf2_ros/package.xml
 ../src/amrl_msgs/msg/_ColoredLine2D.py: /opt/ros/melodic/share/tf/package.xml
 ../src/amrl_msgs/msg/_ColoredLine2D.py: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ../src/amrl_msgs/msg/_ColoredLine2D.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ColoredLine2D.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ../src/amrl_msgs/msg/_ColoredLine2D.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/ColoredLine2D.msg
 
 ../src/amrl_msgs/msg/_ColoredPoint2D.py: ../msg/ColoredPoint2D.msg
 ../src/amrl_msgs/msg/_ColoredPoint2D.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py
@@ -329,8 +461,72 @@ CMakeFiles/ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/__init__.py
 ../src/amrl_msgs/msg/_ColoredPoint2D.py: /opt/ros/melodic/share/tf2_ros/package.xml
 ../src/amrl_msgs/msg/_ColoredPoint2D.py: /opt/ros/melodic/share/tf/package.xml
 ../src/amrl_msgs/msg/_ColoredPoint2D.py: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ../src/amrl_msgs/msg/_ColoredPoint2D.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ColoredPoint2D.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ../src/amrl_msgs/msg/_ColoredPoint2D.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/ColoredPoint2D.msg
+
+../src/amrl_msgs/msg/_ColoredText.py: ../msg/ColoredText.msg
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/lib/roslib/gendeps
+../src/amrl_msgs/msg/_ColoredText.py: ../msg/Point2D.msg
+../src/amrl_msgs/msg/_ColoredText.py: ../manifest.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/cpp_common/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/rostime/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/roscpp_traits/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/roscpp_serialization/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/catkin/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/genmsg/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/genpy/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/message_runtime/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/std_msgs/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/geometry_msgs/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/gencpp/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/geneus/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/gennodejs/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/genlisp/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/message_generation/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/actionlib_msgs/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/nav_msgs/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/sensor_msgs/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/rosbuild/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/rosconsole/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/rosgraph_msgs/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/xmlrpcpp/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/roscpp/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/rosgraph/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/ros_environment/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/rospack/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/roslib/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/rospy/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/visualization_msgs/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/message_filters/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/rosclean/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/rosmaster/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/rosout/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/rosparam/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/rosunit/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/roslaunch/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/topic_tools/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/class_loader/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/pluginlib/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/roslz4/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/rosbag_storage/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/std_srvs/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/rosbag/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/rostopic/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/rosnode/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/rosmsg/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/rosservice/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/roswtf/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/rostest/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/actionlib/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/tf2_msgs/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/tf2/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/tf2_py/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/tf2_ros/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/tf/package.xml
+../src/amrl_msgs/msg/_ColoredText.py: /opt/ros/melodic/share/angles/package.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ../src/amrl_msgs/msg/_ColoredText.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/ColoredText.msg
 
 ../src/amrl_msgs/msg/_ElevatorCommand.py: ../msg/ElevatorCommand.msg
 ../src/amrl_msgs/msg/_ElevatorCommand.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py
@@ -392,8 +588,8 @@ CMakeFiles/ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/__init__.py
 ../src/amrl_msgs/msg/_ElevatorCommand.py: /opt/ros/melodic/share/tf2_ros/package.xml
 ../src/amrl_msgs/msg/_ElevatorCommand.py: /opt/ros/melodic/share/tf/package.xml
 ../src/amrl_msgs/msg/_ElevatorCommand.py: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ../src/amrl_msgs/msg/_ElevatorCommand.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ElevatorCommand.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ../src/amrl_msgs/msg/_ElevatorCommand.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/ElevatorCommand.msg
 
 ../src/amrl_msgs/msg/_ElevatorStatus.py: ../msg/ElevatorStatus.msg
 ../src/amrl_msgs/msg/_ElevatorStatus.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py
@@ -455,8 +651,8 @@ CMakeFiles/ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/__init__.py
 ../src/amrl_msgs/msg/_ElevatorStatus.py: /opt/ros/melodic/share/tf2_ros/package.xml
 ../src/amrl_msgs/msg/_ElevatorStatus.py: /opt/ros/melodic/share/tf/package.xml
 ../src/amrl_msgs/msg/_ElevatorStatus.py: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ../src/amrl_msgs/msg/_ElevatorStatus.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ElevatorStatus.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ../src/amrl_msgs/msg/_ElevatorStatus.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/ElevatorStatus.msg
 
 ../src/amrl_msgs/msg/_ErrorReport.py: ../msg/ErrorReport.msg
 ../src/amrl_msgs/msg/_ErrorReport.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py
@@ -519,8 +715,8 @@ CMakeFiles/ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/__init__.py
 ../src/amrl_msgs/msg/_ErrorReport.py: /opt/ros/melodic/share/tf2_ros/package.xml
 ../src/amrl_msgs/msg/_ErrorReport.py: /opt/ros/melodic/share/tf/package.xml
 ../src/amrl_msgs/msg/_ErrorReport.py: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ../src/amrl_msgs/msg/_ErrorReport.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/ErrorReport.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ../src/amrl_msgs/msg/_ErrorReport.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/ErrorReport.msg
 
 ../src/amrl_msgs/msg/_HumanStateArrayMsg.py: ../msg/HumanStateArrayMsg.msg
 ../src/amrl_msgs/msg/_HumanStateArrayMsg.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py
@@ -586,8 +782,8 @@ CMakeFiles/ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/__init__.py
 ../src/amrl_msgs/msg/_HumanStateArrayMsg.py: /opt/ros/melodic/share/tf2_ros/package.xml
 ../src/amrl_msgs/msg/_HumanStateArrayMsg.py: /opt/ros/melodic/share/tf/package.xml
 ../src/amrl_msgs/msg/_HumanStateArrayMsg.py: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ../src/amrl_msgs/msg/_HumanStateArrayMsg.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/HumanStateArrayMsg.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ../src/amrl_msgs/msg/_HumanStateArrayMsg.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/HumanStateArrayMsg.msg
 
 ../src/amrl_msgs/msg/_HumanStateMsg.py: ../msg/HumanStateMsg.msg
 ../src/amrl_msgs/msg/_HumanStateMsg.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py
@@ -651,8 +847,8 @@ CMakeFiles/ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/__init__.py
 ../src/amrl_msgs/msg/_HumanStateMsg.py: /opt/ros/melodic/share/tf2_ros/package.xml
 ../src/amrl_msgs/msg/_HumanStateMsg.py: /opt/ros/melodic/share/tf/package.xml
 ../src/amrl_msgs/msg/_HumanStateMsg.py: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ../src/amrl_msgs/msg/_HumanStateMsg.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/HumanStateMsg.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ../src/amrl_msgs/msg/_HumanStateMsg.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/HumanStateMsg.msg
 
 ../src/amrl_msgs/msg/_Localization2DMsg.py: ../msg/Localization2DMsg.msg
 ../src/amrl_msgs/msg/_Localization2DMsg.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py
@@ -716,8 +912,71 @@ CMakeFiles/ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/__init__.py
 ../src/amrl_msgs/msg/_Localization2DMsg.py: /opt/ros/melodic/share/tf2_ros/package.xml
 ../src/amrl_msgs/msg/_Localization2DMsg.py: /opt/ros/melodic/share/tf/package.xml
 ../src/amrl_msgs/msg/_Localization2DMsg.py: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ../src/amrl_msgs/msg/_Localization2DMsg.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/Localization2DMsg.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating ../src/amrl_msgs/msg/_Localization2DMsg.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/Localization2DMsg.msg
+
+../src/amrl_msgs/msg/_NavStatusMsg.py: ../msg/NavStatusMsg.msg
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/lib/roslib/gendeps
+../src/amrl_msgs/msg/_NavStatusMsg.py: ../manifest.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/cpp_common/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/rostime/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/roscpp_traits/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/roscpp_serialization/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/catkin/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/genmsg/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/genpy/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/message_runtime/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/std_msgs/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/geometry_msgs/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/gencpp/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/geneus/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/gennodejs/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/genlisp/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/message_generation/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/actionlib_msgs/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/nav_msgs/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/sensor_msgs/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/rosbuild/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/rosconsole/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/rosgraph_msgs/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/xmlrpcpp/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/roscpp/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/rosgraph/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/ros_environment/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/rospack/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/roslib/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/rospy/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/visualization_msgs/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/message_filters/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/rosclean/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/rosmaster/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/rosout/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/rosparam/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/rosunit/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/roslaunch/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/topic_tools/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/class_loader/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/pluginlib/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/roslz4/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/rosbag_storage/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/std_srvs/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/rosbag/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/rostopic/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/rosnode/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/rosmsg/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/rosservice/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/roswtf/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/rostest/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/actionlib/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/tf2_msgs/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/tf2/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/tf2_py/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/tf2_ros/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/tf/package.xml
+../src/amrl_msgs/msg/_NavStatusMsg.py: /opt/ros/melodic/share/angles/package.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating ../src/amrl_msgs/msg/_NavStatusMsg.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/NavStatusMsg.msg
 
 ../src/amrl_msgs/msg/_PathVisualization.py: ../msg/PathVisualization.msg
 ../src/amrl_msgs/msg/_PathVisualization.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py
@@ -779,8 +1038,8 @@ CMakeFiles/ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/__init__.py
 ../src/amrl_msgs/msg/_PathVisualization.py: /opt/ros/melodic/share/tf2_ros/package.xml
 ../src/amrl_msgs/msg/_PathVisualization.py: /opt/ros/melodic/share/tf/package.xml
 ../src/amrl_msgs/msg/_PathVisualization.py: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ../src/amrl_msgs/msg/_PathVisualization.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/PathVisualization.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating ../src/amrl_msgs/msg/_PathVisualization.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/PathVisualization.msg
 
 ../src/amrl_msgs/msg/_PlanarObjDetection.py: ../msg/PlanarObjDetection.msg
 ../src/amrl_msgs/msg/_PlanarObjDetection.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py
@@ -844,8 +1103,8 @@ CMakeFiles/ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/__init__.py
 ../src/amrl_msgs/msg/_PlanarObjDetection.py: /opt/ros/melodic/share/tf2_ros/package.xml
 ../src/amrl_msgs/msg/_PlanarObjDetection.py: /opt/ros/melodic/share/tf/package.xml
 ../src/amrl_msgs/msg/_PlanarObjDetection.py: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ../src/amrl_msgs/msg/_PlanarObjDetection.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/PlanarObjDetection.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating ../src/amrl_msgs/msg/_PlanarObjDetection.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/PlanarObjDetection.msg
 
 ../src/amrl_msgs/msg/_Point2D.py: ../msg/Point2D.msg
 ../src/amrl_msgs/msg/_Point2D.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py
@@ -907,8 +1166,8 @@ CMakeFiles/ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/__init__.py
 ../src/amrl_msgs/msg/_Point2D.py: /opt/ros/melodic/share/tf2_ros/package.xml
 ../src/amrl_msgs/msg/_Point2D.py: /opt/ros/melodic/share/tf/package.xml
 ../src/amrl_msgs/msg/_Point2D.py: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating ../src/amrl_msgs/msg/_Point2D.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/Point2D.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating ../src/amrl_msgs/msg/_Point2D.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/Point2D.msg
 
 ../src/amrl_msgs/msg/_Pose2Df.py: ../msg/Pose2Df.msg
 ../src/amrl_msgs/msg/_Pose2Df.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py
@@ -970,8 +1229,8 @@ CMakeFiles/ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/__init__.py
 ../src/amrl_msgs/msg/_Pose2Df.py: /opt/ros/melodic/share/tf2_ros/package.xml
 ../src/amrl_msgs/msg/_Pose2Df.py: /opt/ros/melodic/share/tf/package.xml
 ../src/amrl_msgs/msg/_Pose2Df.py: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating ../src/amrl_msgs/msg/_Pose2Df.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/Pose2Df.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating ../src/amrl_msgs/msg/_Pose2Df.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/Pose2Df.msg
 
 ../src/amrl_msgs/msg/_RobofleetStatus.py: ../msg/RobofleetStatus.msg
 ../src/amrl_msgs/msg/_RobofleetStatus.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py
@@ -1033,8 +1292,8 @@ CMakeFiles/ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/__init__.py
 ../src/amrl_msgs/msg/_RobofleetStatus.py: /opt/ros/melodic/share/tf2_ros/package.xml
 ../src/amrl_msgs/msg/_RobofleetStatus.py: /opt/ros/melodic/share/tf/package.xml
 ../src/amrl_msgs/msg/_RobofleetStatus.py: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating ../src/amrl_msgs/msg/_RobofleetStatus.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/RobofleetStatus.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating ../src/amrl_msgs/msg/_RobofleetStatus.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/RobofleetStatus.msg
 
 ../src/amrl_msgs/msg/_RobofleetSubscription.py: ../msg/RobofleetSubscription.msg
 ../src/amrl_msgs/msg/_RobofleetSubscription.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py
@@ -1096,8 +1355,8 @@ CMakeFiles/ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/__init__.py
 ../src/amrl_msgs/msg/_RobofleetSubscription.py: /opt/ros/melodic/share/tf2_ros/package.xml
 ../src/amrl_msgs/msg/_RobofleetSubscription.py: /opt/ros/melodic/share/tf/package.xml
 ../src/amrl_msgs/msg/_RobofleetSubscription.py: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating ../src/amrl_msgs/msg/_RobofleetSubscription.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/RobofleetSubscription.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating ../src/amrl_msgs/msg/_RobofleetSubscription.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/RobofleetSubscription.msg
 
 ../src/amrl_msgs/msg/_VisualizationMsg.py: ../msg/VisualizationMsg.msg
 ../src/amrl_msgs/msg/_VisualizationMsg.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py
@@ -1166,21 +1425,25 @@ CMakeFiles/ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/__init__.py
 ../src/amrl_msgs/msg/_VisualizationMsg.py: /opt/ros/melodic/share/tf2_ros/package.xml
 ../src/amrl_msgs/msg/_VisualizationMsg.py: /opt/ros/melodic/share/tf/package.xml
 ../src/amrl_msgs/msg/_VisualizationMsg.py: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating ../src/amrl_msgs/msg/_VisualizationMsg.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg/VisualizationMsg.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating ../src/amrl_msgs/msg/_VisualizationMsg.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/msg/VisualizationMsg.msg
 
 ROSBUILD_genmsg_py: CMakeFiles/ROSBUILD_genmsg_py
 ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/__init__.py
 ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/_AckermannCurvatureDriveMsg.py
+ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/_BBox2DArrayMsg.py
+ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/_BBox2DMsg.py
 ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/_ColoredArc2D.py
 ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/_ColoredLine2D.py
 ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/_ColoredPoint2D.py
+ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/_ColoredText.py
 ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/_ElevatorCommand.py
 ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/_ElevatorStatus.py
 ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/_ErrorReport.py
 ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/_HumanStateArrayMsg.py
 ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/_HumanStateMsg.py
 ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/_Localization2DMsg.py
+ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/_NavStatusMsg.py
 ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/_PathVisualization.py
 ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/_PlanarObjDetection.py
 ROSBUILD_genmsg_py: ../src/amrl_msgs/msg/_Point2D.py
@@ -1202,6 +1465,6 @@ CMakeFiles/ROSBUILD_genmsg_py.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_genmsg_py.dir/clean
 
 CMakeFiles/ROSBUILD_genmsg_py.dir/depend:
-	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles/ROSBUILD_genmsg_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles/ROSBUILD_genmsg_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_genmsg_py.dir/depend
 

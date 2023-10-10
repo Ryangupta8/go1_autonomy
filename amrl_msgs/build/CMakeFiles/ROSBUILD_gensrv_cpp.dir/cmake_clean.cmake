@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "../src/amrl_msgs/msg"
   "../src/amrl_msgs/srv"
   "CMakeFiles/ROSBUILD_gensrv_cpp"
+  "../srv_gen/cpp/include/amrl_msgs/ObjectDetectionSrv.h"
   "../srv_gen/cpp/include/amrl_msgs/SocialPipsSrv.h"
 )
 

@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "../src/amrl_msgs/srv"
   "CMakeFiles/ROSBUILD_gensrv_py"
   "../src/amrl_msgs/srv/__init__.py"
+  "../src/amrl_msgs/srv/_ObjectDetectionSrv.py"
   "../src/amrl_msgs/srv/_SocialPipsSrv.py"
 )
 

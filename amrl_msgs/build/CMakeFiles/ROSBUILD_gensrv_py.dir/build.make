@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs
+CMAKE_SOURCE_DIR = /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build
+CMAKE_BINARY_DIR = /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build
 
 # Utility rule file for ROSBUILD_gensrv_py.
 
@@ -56,9 +56,77 @@ include CMakeFiles/ROSBUILD_gensrv_py.dir/progress.make
 CMakeFiles/ROSBUILD_gensrv_py: ../src/amrl_msgs/srv/__init__.py
 
 
+../src/amrl_msgs/srv/__init__.py: ../src/amrl_msgs/srv/_ObjectDetectionSrv.py
 ../src/amrl_msgs/srv/__init__.py: ../src/amrl_msgs/srv/_SocialPipsSrv.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../src/amrl_msgs/srv/__init__.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/gensrv_py.py --initpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/srv/SocialPipsSrv.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../src/amrl_msgs/srv/__init__.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/gensrv_py.py --initpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/srv/ObjectDetectionSrv.srv /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/srv/SocialPipsSrv.srv
+
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: ../srv/ObjectDetectionSrv.srv
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/gensrv_py.py
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/lib/roslib/gendeps
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/sensor_msgs/msg/Image.msg
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: ../msg/BBox2DArrayMsg.msg
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: ../msg/BBox2DMsg.msg
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: ../manifest.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/cpp_common/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/rostime/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/roscpp_traits/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/roscpp_serialization/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/catkin/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/genmsg/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/genpy/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/message_runtime/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/std_msgs/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/geometry_msgs/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/gencpp/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/geneus/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/gennodejs/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/genlisp/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/message_generation/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/actionlib_msgs/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/nav_msgs/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/sensor_msgs/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/rosbuild/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/rosconsole/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/rosgraph_msgs/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/xmlrpcpp/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/roscpp/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/rosgraph/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/ros_environment/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/rospack/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/roslib/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/rospy/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/visualization_msgs/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/message_filters/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/rosclean/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/rosmaster/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/rosout/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/rosparam/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/rosunit/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/roslaunch/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/topic_tools/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/class_loader/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/pluginlib/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/roslz4/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/rosbag_storage/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/std_srvs/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/rosbag/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/rostopic/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/rosnode/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/rosmsg/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/rosservice/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/roswtf/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/rostest/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/actionlib/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/tf2_msgs/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/tf2/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/tf2_py/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/tf2_ros/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/tf/package.xml
+../src/amrl_msgs/srv/_ObjectDetectionSrv.py: /opt/ros/melodic/share/angles/package.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../src/amrl_msgs/srv/_ObjectDetectionSrv.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/srv/ObjectDetectionSrv.srv
 
 ../src/amrl_msgs/srv/_SocialPipsSrv.py: ../srv/SocialPipsSrv.srv
 ../src/amrl_msgs/srv/_SocialPipsSrv.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/gensrv_py.py
@@ -121,11 +189,12 @@ CMakeFiles/ROSBUILD_gensrv_py: ../src/amrl_msgs/srv/__init__.py
 ../src/amrl_msgs/srv/_SocialPipsSrv.py: /opt/ros/melodic/share/tf2_ros/package.xml
 ../src/amrl_msgs/srv/_SocialPipsSrv.py: /opt/ros/melodic/share/tf/package.xml
 ../src/amrl_msgs/srv/_SocialPipsSrv.py: /opt/ros/melodic/share/angles/package.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../src/amrl_msgs/srv/_SocialPipsSrv.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/srv/SocialPipsSrv.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../src/amrl_msgs/srv/_SocialPipsSrv.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/srv/SocialPipsSrv.srv
 
 ROSBUILD_gensrv_py: CMakeFiles/ROSBUILD_gensrv_py
 ROSBUILD_gensrv_py: ../src/amrl_msgs/srv/__init__.py
+ROSBUILD_gensrv_py: ../src/amrl_msgs/srv/_ObjectDetectionSrv.py
 ROSBUILD_gensrv_py: ../src/amrl_msgs/srv/_SocialPipsSrv.py
 ROSBUILD_gensrv_py: CMakeFiles/ROSBUILD_gensrv_py.dir/build.make
 
@@ -141,6 +210,6 @@ CMakeFiles/ROSBUILD_gensrv_py.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_gensrv_py.dir/clean
 
 CMakeFiles/ROSBUILD_gensrv_py.dir/depend:
-	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles/ROSBUILD_gensrv_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build /home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_msgs/build/CMakeFiles/ROSBUILD_gensrv_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_gensrv_py.dir/depend
 

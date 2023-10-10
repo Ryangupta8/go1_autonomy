@@ -6,5 +6,5 @@ CXX_FLAGS = -march=native -Wall -Werror -g -Wno-unused-function -fopenmp -fno-bu
 
 CXX_DEFINES = -DGTEST_CREATE_SHARED_LIBRARY=1 -DROS_PACKAGE_NAME=\"go1_autonomy\" -Dgtest_main_EXPORTS
 
-CXX_INCLUDES = -I/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/gtest/googlemock/gtest -I/usr/src/googletest/googletest -I/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/gtest/googlemock/gtest/gtest_main_autogen/include -I/home/amrl/workspaces/boh_ws/src/go1_autonomy/include -I/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg_gen/cpp/include -I/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/srv_gen/cpp/include -I/home/amrl/workspaces/boh_ws/devel/.private/unitree_legged_msgs/include -I/opt/ros/melodic/include -I/usr/src/googletest/googletest/include 
+CXX_INCLUDES = -I/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/gtest/googlemock/gtest -I/usr/src/googletest/googletest -I/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/gtest/googlemock/gtest/gtest_main_autogen/include -I/home/amrl/workspaces/gcr_ws/src/go1_autonomy/include -I/usr/src/googletest/googletest/include 
 

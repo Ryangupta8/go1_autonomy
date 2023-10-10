@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib/amrl_shared_lib_autogen/mocs_compilation.cpp" "/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/amrl_shared_lib_autogen/mocs_compilation.cpp.o"
-  "/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/helpers.cc" "/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/helpers.cc.o"
-  "/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/pthread_utils.cc" "/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/pthread_utils.cc.o"
-  "/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/random.cc" "/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/random.cc.o"
-  "/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/serialization.cc" "/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/serialization.cc.o"
-  "/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/terminal_colors.cc" "/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/terminal_colors.cc.o"
-  "/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/timer.cc" "/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/timer.cc.o"
+  "/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/amrl_shared_lib/amrl_shared_lib_autogen/mocs_compilation.cpp" "/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/amrl_shared_lib_autogen/mocs_compilation.cpp.o"
+  "/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_shared_lib/util/helpers.cc" "/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/helpers.cc.o"
+  "/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_shared_lib/util/pthread_utils.cc" "/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/pthread_utils.cc.o"
+  "/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_shared_lib/util/random.cc" "/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/random.cc.o"
+  "/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_shared_lib/util/serialization.cc" "/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/serialization.cc.o"
+  "/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_shared_lib/util/terminal_colors.cc" "/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/terminal_colors.cc.o"
+  "/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_shared_lib/util/timer.cc" "/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/amrl_shared_lib/CMakeFiles/amrl_shared_lib.dir/util/timer.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -29,7 +29,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
   "../amrl_msgs/msg_gen/cpp/include"
   "../amrl_msgs/srv_gen/cpp/include"
-  "/home/amrl/workspaces/boh_ws/devel/.private/unitree_legged_msgs/include"
+  "/home/amrl/workspaces/gcr_ws/devel/.private/unitree_legged_msgs/include"
   "/opt/ros/melodic/include"
   )
 

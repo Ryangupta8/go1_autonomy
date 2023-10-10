@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/devel/setup.sh
+    local-name: /home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/devel/setup.sh

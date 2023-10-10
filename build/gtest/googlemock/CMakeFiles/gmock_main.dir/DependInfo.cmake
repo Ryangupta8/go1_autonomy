@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/usr/src/googletest/googletest/src/gtest-all.cc" "/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/gtest/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o"
-  "/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/gtest/googlemock/gmock_main_autogen/mocs_compilation.cpp" "/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/gtest/googlemock/CMakeFiles/gmock_main.dir/gmock_main_autogen/mocs_compilation.cpp.o"
-  "/usr/src/googletest/googlemock/src/gmock-all.cc" "/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o"
-  "/usr/src/googletest/googlemock/src/gmock_main.cc" "/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+  "/usr/src/googletest/googletest/src/gtest-all.cc" "/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/gtest/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o"
+  "/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/gtest/googlemock/gmock_main_autogen/mocs_compilation.cpp" "/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/gtest/googlemock/CMakeFiles/gmock_main.dir/gmock_main_autogen/mocs_compilation.cpp.o"
+  "/usr/src/googletest/googlemock/src/gmock-all.cc" "/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o"
+  "/usr/src/googletest/googlemock/src/gmock_main.cc" "/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,11 +22,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "gtest/googlemock"
   "/usr/src/googletest/googlemock"
   "gtest/googlemock/gmock_main_autogen/include"
-  "/home/amrl/workspaces/boh_ws/src/go1_autonomy/include"
-  "/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/msg_gen/cpp/include"
-  "/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_msgs/srv_gen/cpp/include"
-  "/home/amrl/workspaces/boh_ws/devel/.private/unitree_legged_msgs/include"
-  "/opt/ros/melodic/include"
+  "/home/amrl/workspaces/gcr_ws/src/go1_autonomy/include"
   "/usr/src/googletest/googlemock/include"
   "/usr/src/googletest/googletest/include"
   "/usr/src/googletest/googletest"

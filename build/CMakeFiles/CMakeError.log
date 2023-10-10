@@ -1,26 +1,26 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp
+Change Dir: /home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c6362/fast"
-make[1]: Entering directory '/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_c6362.dir/build.make CMakeFiles/cmTC_c6362.dir/build
-make[2]: Entering directory '/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c6362.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_c6362.dir/CheckSymbolExists.c.o   -c /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_c6362
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6362.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c6362.dir/CheckSymbolExists.c.o  -o cmTC_c6362 
-CMakeFiles/cmTC_c6362.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_ba2b2/fast"
+make[1]: Entering directory '/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ba2b2.dir/build.make CMakeFiles/cmTC_ba2b2.dir/build
+make[2]: Entering directory '/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba2b2.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ba2b2.dir/CheckSymbolExists.c.o   -c /home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ba2b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba2b2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ba2b2.dir/CheckSymbolExists.c.o  -o cmTC_ba2b2 
+CMakeFiles/cmTC_ba2b2.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_c6362.dir/build.make:97: recipe for target 'cmTC_c6362' failed
-make[2]: *** [cmTC_c6362] Error 1
-make[2]: Leaving directory '/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_c6362/fast' failed
-make[1]: *** [cmTC_c6362/fast] Error 2
-make[1]: Leaving directory '/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_ba2b2.dir/build.make:97: recipe for target 'cmTC_ba2b2' failed
+make[2]: *** [cmTC_ba2b2] Error 1
+make[2]: Leaving directory '/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ba2b2/fast' failed
+make[1]: *** [cmTC_ba2b2/fast] Error 2
+make[1]: Leaving directory '/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp'
 
-File /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -36,24 +36,24 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp
+Change Dir: /home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_88cde/fast"
-make[1]: Entering directory '/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_88cde.dir/build.make CMakeFiles/cmTC_88cde.dir/build
-make[2]: Entering directory '/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_88cde.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_88cde.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_88cde
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88cde.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_88cde.dir/CheckFunctionExists.c.o  -o cmTC_88cde -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_081f6/fast"
+make[1]: Entering directory '/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_081f6.dir/build.make CMakeFiles/cmTC_081f6.dir/build
+make[2]: Entering directory '/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_081f6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_081f6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_081f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_081f6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_081f6.dir/CheckFunctionExists.c.o  -o cmTC_081f6 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_88cde.dir/build.make:97: recipe for target 'cmTC_88cde' failed
-make[2]: *** [cmTC_88cde] Error 1
-make[2]: Leaving directory '/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_88cde/fast' failed
-make[1]: *** [cmTC_88cde/fast] Error 2
-make[1]: Leaving directory '/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_081f6.dir/build.make:97: recipe for target 'cmTC_081f6' failed
+make[2]: *** [cmTC_081f6] Error 1
+make[2]: Leaving directory '/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_081f6/fast' failed
+make[1]: *** [cmTC_081f6/fast] Error 2
+make[1]: Leaving directory '/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/CMakeFiles/CMakeTmp'
 
 

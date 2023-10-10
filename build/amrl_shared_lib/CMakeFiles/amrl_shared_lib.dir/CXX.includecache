@@ -36,9 +36,9 @@ stdint.h
 string
 -
 
-/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/helpers.cc
+/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_shared_lib/util/helpers.cc
 util/helpers.h
-/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/util/helpers.h
+/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_shared_lib/util/util/helpers.h
 execinfo.h
 -
 stdio.h
@@ -62,27 +62,27 @@ utility
 vector
 -
 
-/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/pthread_utils.cc
+/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_shared_lib/util/pthread_utils.cc
 pthread.h
 -
 stdio.h
 -
 util/pthread_utils.h
-/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/util/pthread_utils.h
+/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_shared_lib/util/util/pthread_utils.h
 
-/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/random.cc
+/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_shared_lib/util/random.cc
 random.h
-/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/random.h
+/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_shared_lib/util/random.h
 random
 -
 
-/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/random.h
+/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_shared_lib/util/random.h
 random
 -
 
-/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/serialization.cc
+/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_shared_lib/util/serialization.cc
 util/serialization.h
-/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/util/serialization.h
+/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_shared_lib/util/util/serialization.h
 fcntl.h
 -
 string.h
@@ -98,23 +98,23 @@ algorithm
 string
 -
 glog/logging.h
-/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/glog/logging.h
+/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_shared_lib/util/glog/logging.h
 
-/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/terminal_colors.cc
+/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_shared_lib/util/terminal_colors.cc
 stdio.h
 -
 vector
 -
 terminal_colors.h
-/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/terminal_colors.h
+/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_shared_lib/util/terminal_colors.h
 
-/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/terminal_colors.h
+/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_shared_lib/util/terminal_colors.h
 vector
 -
 
-/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/timer.cc
+/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_shared_lib/util/timer.cc
 util/timer.h
-/home/amrl/workspaces/boh_ws/src/go1_autonomy/amrl_shared_lib/util/util/timer.h
+/home/amrl/workspaces/gcr_ws/src/go1_autonomy/amrl_shared_lib/util/util/timer.h
 inttypes.h
 -
 time.h
@@ -128,5 +128,5 @@ algorithm
 string
 -
 
-/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/amrl_shared_lib/amrl_shared_lib_autogen/mocs_compilation.cpp
+/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/amrl_shared_lib/amrl_shared_lib_autogen/mocs_compilation.cpp
 

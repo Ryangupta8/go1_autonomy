@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy
+CMAKE_SOURCE_DIR = /home/amrl/workspaces/gcr_ws/src/go1_autonomy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amrl/workspaces/boh_ws/src/go1_autonomy/build
+CMAKE_BINARY_DIR = /home/amrl/workspaces/gcr_ws/src/go1_autonomy/build
 
 # Utility rule file for ROSBUILD_gensrv_py.
 
@@ -58,8 +58,8 @@ CMakeFiles/ROSBUILD_gensrv_py: ../src/go1_autonomy/srv/__init__.py
 
 ../src/go1_autonomy/srv/__init__.py: ../src/go1_autonomy/srv/_graphNavSrv.py
 ../src/go1_autonomy/srv/__init__.py: ../src/go1_autonomy/srv/_socialNavSrv.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../src/go1_autonomy/srv/__init__.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/gensrv_py.py --initpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/srv/graphNavSrv.srv /home/amrl/workspaces/boh_ws/src/go1_autonomy/srv/socialNavSrv.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../src/go1_autonomy/srv/__init__.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/gensrv_py.py --initpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/srv/graphNavSrv.srv /home/amrl/workspaces/gcr_ws/src/go1_autonomy/srv/socialNavSrv.srv
 
 ../src/go1_autonomy/srv/_graphNavSrv.py: ../srv/graphNavSrv.srv
 ../src/go1_autonomy/srv/_graphNavSrv.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/gensrv_py.py
@@ -126,8 +126,8 @@ CMakeFiles/ROSBUILD_gensrv_py: ../src/go1_autonomy/srv/__init__.py
 ../src/go1_autonomy/srv/_graphNavSrv.py: ../unitree_ros/unitree_legged_msgs/package.xml
 ../src/go1_autonomy/srv/_graphNavSrv.py: ../amrl_msgs/msg_gen/generated
 ../src/go1_autonomy/srv/_graphNavSrv.py: ../amrl_msgs/srv_gen/generated
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../src/go1_autonomy/srv/_graphNavSrv.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/srv/graphNavSrv.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../src/go1_autonomy/srv/_graphNavSrv.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/srv/graphNavSrv.srv
 
 ../src/go1_autonomy/srv/_socialNavSrv.py: ../srv/socialNavSrv.srv
 ../src/go1_autonomy/srv/_socialNavSrv.py: /opt/ros/melodic/share/rospy/rosbuild/scripts/gensrv_py.py
@@ -205,8 +205,8 @@ CMakeFiles/ROSBUILD_gensrv_py: ../src/go1_autonomy/srv/__init__.py
 ../src/go1_autonomy/srv/_socialNavSrv.py: ../unitree_ros/unitree_legged_msgs/package.xml
 ../src/go1_autonomy/srv/_socialNavSrv.py: ../amrl_msgs/msg_gen/generated
 ../src/go1_autonomy/srv/_socialNavSrv.py: ../amrl_msgs/srv_gen/generated
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../src/go1_autonomy/srv/_socialNavSrv.py"
-	/opt/ros/melodic/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/amrl/workspaces/boh_ws/src/go1_autonomy/srv/socialNavSrv.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../src/go1_autonomy/srv/_socialNavSrv.py"
+	/opt/ros/melodic/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/srv/socialNavSrv.srv
 
 ROSBUILD_gensrv_py: CMakeFiles/ROSBUILD_gensrv_py
 ROSBUILD_gensrv_py: ../src/go1_autonomy/srv/__init__.py
@@ -226,6 +226,6 @@ CMakeFiles/ROSBUILD_gensrv_py.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_gensrv_py.dir/clean
 
 CMakeFiles/ROSBUILD_gensrv_py.dir/depend:
-	cd /home/amrl/workspaces/boh_ws/src/go1_autonomy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amrl/workspaces/boh_ws/src/go1_autonomy /home/amrl/workspaces/boh_ws/src/go1_autonomy /home/amrl/workspaces/boh_ws/src/go1_autonomy/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/build /home/amrl/workspaces/boh_ws/src/go1_autonomy/build/CMakeFiles/ROSBUILD_gensrv_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amrl/workspaces/gcr_ws/src/go1_autonomy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amrl/workspaces/gcr_ws/src/go1_autonomy /home/amrl/workspaces/gcr_ws/src/go1_autonomy /home/amrl/workspaces/gcr_ws/src/go1_autonomy/build /home/amrl/workspaces/gcr_ws/src/go1_autonomy/build /home/amrl/workspaces/gcr_ws/src/go1_autonomy/build/CMakeFiles/ROSBUILD_gensrv_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_gensrv_py.dir/depend
 

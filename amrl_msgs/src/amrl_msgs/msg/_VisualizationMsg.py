@@ -28,6 +28,7 @@ PathVisualization[] path_options
 ColoredPoint2D[] points
 ColoredLine2D[] lines
 ColoredArc2D[] arcs
+
 ================================================================================
 MSG: std_msgs/Header
 # Standard metadata for higher-level stamped data types.

@@ -4,12 +4,14 @@ file(REMOVE_RECURSE
   "../src/go1_autonomy/srv"
   "pointcloud_to_laserscan_autogen"
   "CMakeFiles/pointcloud_to_laserscan_autogen.dir/AutogenOldSettings.cmake"
-  "navigation_go1_autogen"
-  "CMakeFiles/navigation_go1_autogen.dir/AutogenOldSettings.cmake"
+  "enml_go1_daq_autogen"
+  "CMakeFiles/enml_go1_daq_autogen.dir/AutogenOldSettings.cmake"
   "enml_go1_autogen"
   "CMakeFiles/enml_go1_autogen.dir/AutogenOldSettings.cmake"
   "shared_library_autogen"
   "CMakeFiles/shared_library_autogen.dir/AutogenOldSettings.cmake"
+  "navigation_go1_autogen"
+  "CMakeFiles/navigation_go1_autogen.dir/AutogenOldSettings.cmake"
   "CMakeFiles/clean_test_results"
 )
 
