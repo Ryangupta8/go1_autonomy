@@ -1,0 +1,6 @@
+# Define the goal
+nav_msgs/Path path  # Specify which dishwasher we want to use
+---
+# Define the result
+---
+# Define a feedback message
