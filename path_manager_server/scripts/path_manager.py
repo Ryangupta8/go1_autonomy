@@ -50,7 +50,7 @@ class path_manager():
         with open('paths.yaml') as file:
             yaml_data=yaml.load(file, Loader=yaml.Loader)
 
-            path_info_ = path_info(yaml_data['sep_search_l2r_go1'])
+            path_info_ = path_info(yaml_data['tog_search_r2l_go1'])
 
             self.path = path_info_.get_path()
 
